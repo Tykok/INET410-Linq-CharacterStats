@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreportElieOverwatch", "TreportElieOverwatch.csproj", "{5BACA3E5-9E21-47A7-98B1-D69566B2A682}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INET410-Linq-CharacterStats", "INET410-Linq-CharacterStats.csproj", "{5BACA3E5-9E21-47A7-98B1-D69566B2A682}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
