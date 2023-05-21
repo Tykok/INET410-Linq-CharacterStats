@@ -6,10 +6,10 @@
     "Tier": "God",
     "Score": 77.17,
     "Trend": -5.29,
-    "Win %": "49.54%",
-    "Role %": "92.59%",
-    "Pick %": "7.61%",
-    "Ban %": "6.47%",
+    "WinPercentage": "49.54%",
+    "RolePercentage": "92.59%",
+    "PickPercentage": "7.61%",
+    "BanPercentage": "6.47%",
     "KDA": 1.84
   },
   {
@@ -19,10 +19,10 @@
     "Tier": "God",
     "Score": 80.34,
     "Trend": -7.49,
-    "Win %": "50.38%",
-    "Role %": "94.77%",
-    "Pick %": "10.83%",
-    "Ban %": "13.10%",
+    "WinPercentage": "50.38%",
+    "RolePercentage": "94.77%",
+    "PickPercentage": "10.83%",
+    "BanPercentage": "13.10%",
     "KDA": 2.41
   },
   {
@@ -32,10 +32,10 @@
     "Tier": "S",
     "Score": 62.64,
     "Trend": -0.47,
-    "Win %": "49.61%",
-    "Role %": "64.32%",
-    "Pick %": "6.53%",
-    "Ban %": "15.19%",
+    "WinPercentage": "49.61%",
+    "RolePercentage": "64.32%",
+    "PickPercentage": "6.53%",
+    "BanPercentage": "15.19%",
     "KDA": 2.26
   },
   {
@@ -45,10 +45,10 @@
     "Tier": "A",
     "Score": 49.62,
     "Trend": -1.6,
-    "Win %": "48.14%",
-    "Role %": "34.81%",
-    "Pick %": "3.32%",
-    "Ban %": "15.19%",
+    "WinPercentage": "48.14%",
+    "RolePercentage": "34.81%",
+    "PickPercentage": "3.32%",
+    "BanPercentage": "15.19%",
     "KDA": 1.98
   },
   {
@@ -58,10 +58,10 @@
     "Tier": "A",
     "Score": 52.54,
     "Trend": 1.41,
-    "Win %": "50.97%",
-    "Role %": "61.05%",
-    "Pick %": "3.64%",
-    "Ban %": "10.18%",
+    "WinPercentage": "50.97%",
+    "RolePercentage": "61.05%",
+    "PickPercentage": "3.64%",
+    "BanPercentage": "10.18%",
     "KDA": 2.13
   },
   {
@@ -71,10 +71,10 @@
     "Tier": "B",
     "Score": 44.81,
     "Trend": 4.4,
-    "Win %": "51.57%",
-    "Role %": "29.06%",
-    "Pick %": "1.66%",
-    "Ban %": "10.18%",
+    "WinPercentage": "51.57%",
+    "RolePercentage": "29.06%",
+    "PickPercentage": "1.66%",
+    "BanPercentage": "10.18%",
     "KDA": 1.88
   },
   {
@@ -84,10 +84,10 @@
     "Tier": "A",
     "Score": 47.79,
     "Trend": 0.68,
-    "Win %": "50.26%",
-    "Role %": "96.87%",
-    "Pick %": "3.49%",
-    "Ban %": "0.85%",
+    "WinPercentage": "50.26%",
+    "RolePercentage": "96.87%",
+    "PickPercentage": "3.49%",
+    "BanPercentage": "0.85%",
     "KDA": 2.47
   },
   {
@@ -97,10 +97,10 @@
     "Tier": "C",
     "Score": 38.79,
     "Trend": 2.96,
-    "Win %": "49.97%",
-    "Role %": "83.60%",
-    "Pick %": "2.28%",
-    "Ban %": "0.94%",
+    "WinPercentage": "49.97%",
+    "RolePercentage": "83.60%",
+    "PickPercentage": "2.28%",
+    "BanPercentage": "0.94%",
     "KDA": 2.47
   },
   {
@@ -110,10 +110,10 @@
     "Tier": "D",
     "Score": 33.07,
     "Trend": 1.53,
-    "Win %": "48.81%",
-    "Role %": "13.65%",
-    "Pick %": "0.34%",
-    "Ban %": "1.01%",
+    "WinPercentage": "48.81%",
+    "RolePercentage": "13.65%",
+    "PickPercentage": "0.34%",
+    "BanPercentage": "1.01%",
     "KDA": 1.95
   },
   {
@@ -123,10 +123,10 @@
     "Tier": "A",
     "Score": 50.53,
     "Trend": -2.84,
-    "Win %": "51.06%",
-    "Role %": "78.88%",
-    "Pick %": "2.71%",
-    "Ban %": "2.81%",
+    "WinPercentage": "51.06%",
+    "RolePercentage": "78.88%",
+    "PickPercentage": "2.71%",
+    "BanPercentage": "2.81%",
     "KDA": 2.5
   },
   {
@@ -136,10 +136,10 @@
     "Tier": "D",
     "Score": 31.88,
     "Trend": 5.81,
-    "Win %": "47.75%",
-    "Role %": "13.87%",
-    "Pick %": "0.42%",
-    "Ban %": "2.81%",
+    "WinPercentage": "47.75%",
+    "RolePercentage": "13.87%",
+    "PickPercentage": "0.42%",
+    "BanPercentage": "2.81%",
     "KDA": 2.08
   },
   {
@@ -149,10 +149,10 @@
     "Tier": "B",
     "Score": 43.52,
     "Trend": -2.55,
-    "Win %": "49.86%",
-    "Role %": "82.56%",
-    "Pick %": "1.74%",
-    "Ban %": "0.69%",
+    "WinPercentage": "49.86%",
+    "RolePercentage": "82.56%",
+    "PickPercentage": "1.74%",
+    "BanPercentage": "0.69%",
     "KDA": 2.23
   },
   {
@@ -162,10 +162,10 @@
     "Tier": "D",
     "Score": 26.92,
     "Trend": -7.49,
-    "Win %": "45.75%",
-    "Role %": "11.76%",
-    "Pick %": "0.25%",
-    "Ban %": "0.74%",
+    "WinPercentage": "45.75%",
+    "RolePercentage": "11.76%",
+    "PickPercentage": "0.25%",
+    "BanPercentage": "0.74%",
     "KDA": 1.94
   },
   {
@@ -175,10 +175,10 @@
     "Tier": "C",
     "Score": 35.84,
     "Trend": 3.19,
-    "Win %": "45.38%",
-    "Role %": "96.78%",
-    "Pick %": "7.30%",
-    "Ban %": "1.26%",
+    "WinPercentage": "45.38%",
+    "RolePercentage": "96.78%",
+    "PickPercentage": "7.30%",
+    "BanPercentage": "1.26%",
     "KDA": 1.86
   },
   {
@@ -188,10 +188,10 @@
     "Tier": "B",
     "Score": 46.51,
     "Trend": -2.5,
-    "Win %": "50.05%",
-    "Role %": "78.58%",
-    "Pick %": "6.67%",
-    "Ban %": "1.08%",
+    "WinPercentage": "50.05%",
+    "RolePercentage": "78.58%",
+    "PickPercentage": "6.67%",
+    "BanPercentage": "1.08%",
     "KDA": 2.3
   },
   {
@@ -201,10 +201,10 @@
     "Tier": "C",
     "Score": 39.18,
     "Trend": 0.98,
-    "Win %": "49.51%",
-    "Role %": "17.14%",
-    "Pick %": "1.44%",
-    "Ban %": "1.16%",
+    "WinPercentage": "49.51%",
+    "RolePercentage": "17.14%",
+    "PickPercentage": "1.44%",
+    "BanPercentage": "1.16%",
     "KDA": 2.27
   },
   {
@@ -214,10 +214,10 @@
     "Tier": "C",
     "Score": 39.53,
     "Trend": -3.42,
-    "Win %": "49.37%",
-    "Role %": "85.90%",
-    "Pick %": "0.76%",
-    "Ban %": "0.34%",
+    "WinPercentage": "49.37%",
+    "RolePercentage": "85.90%",
+    "PickPercentage": "0.76%",
+    "BanPercentage": "0.34%",
     "KDA": 2.25
   },
   {
@@ -227,10 +227,10 @@
     "Tier": "C",
     "Score": 37.67,
     "Trend": -4.52,
-    "Win %": "47.20%",
-    "Role %": "81.99%",
-    "Pick %": "1.75%",
-    "Ban %": "0.38%",
+    "WinPercentage": "47.20%",
+    "RolePercentage": "81.99%",
+    "PickPercentage": "1.75%",
+    "BanPercentage": "0.38%",
     "KDA": 2.03
   },
   {
@@ -240,10 +240,10 @@
     "Tier": "D",
     "Score": 22.29,
     "Trend": 0,
-    "Win %": "46.63%",
-    "Role %": "12.99%",
-    "Pick %": "0.26%",
-    "Ban %": "0.36%",
+    "WinPercentage": "46.63%",
+    "RolePercentage": "12.99%",
+    "PickPercentage": "0.26%",
+    "BanPercentage": "0.36%",
     "KDA": 1.74
   },
   {
@@ -253,10 +253,10 @@
     "Tier": "A",
     "Score": 48.82,
     "Trend": -2.21,
-    "Win %": "50.31%",
-    "Role %": "97.06%",
-    "Pick %": "3.25%",
-    "Ban %": "0.57%",
+    "WinPercentage": "50.31%",
+    "RolePercentage": "97.06%",
+    "PickPercentage": "3.25%",
+    "BanPercentage": "0.57%",
     "KDA": 2.87
   },
   {
@@ -266,10 +266,10 @@
     "Tier": "S",
     "Score": 63.13,
     "Trend": -0.45,
-    "Win %": "50.50%",
-    "Role %": "98.21%",
-    "Pick %": "7.01%",
-    "Ban %": "16.84%",
+    "WinPercentage": "50.50%",
+    "RolePercentage": "98.21%",
+    "PickPercentage": "7.01%",
+    "BanPercentage": "16.84%",
     "KDA": 2.41
   },
   {
@@ -279,10 +279,10 @@
     "Tier": "B",
     "Score": 44.29,
     "Trend": 1.33,
-    "Win %": "49.97%",
-    "Role %": "68.46%",
-    "Pick %": "3.32%",
-    "Ban %": "4.88%",
+    "WinPercentage": "49.97%",
+    "RolePercentage": "68.46%",
+    "PickPercentage": "3.32%",
+    "BanPercentage": "4.88%",
     "KDA": 1.77
   },
   {
@@ -292,10 +292,10 @@
     "Tier": "B",
     "Score": 40.49,
     "Trend": 2.19,
-    "Win %": "50.36%",
-    "Role %": "17.50%",
-    "Pick %": "0.83%",
-    "Ban %": "5.34%",
+    "WinPercentage": "50.36%",
+    "RolePercentage": "17.50%",
+    "PickPercentage": "0.83%",
+    "BanPercentage": "5.34%",
     "KDA": 2.01
   },
   {
@@ -305,10 +305,10 @@
     "Tier": "B",
     "Score": 43.77,
     "Trend": 4.16,
-    "Win %": "48.63%",
-    "Role %": "98.06%",
-    "Pick %": "2.70%",
-    "Ban %": "0.40%",
+    "WinPercentage": "48.63%",
+    "RolePercentage": "98.06%",
+    "PickPercentage": "2.70%",
+    "BanPercentage": "0.40%",
     "KDA": 2.84
   },
   {
@@ -318,10 +318,10 @@
     "Tier": "A",
     "Score": 48.84,
     "Trend": -6.38,
-    "Win %": "47.90%",
-    "Role %": "96.58%",
-    "Pick %": "9.21%",
-    "Ban %": "6.68%",
+    "WinPercentage": "47.90%",
+    "RolePercentage": "96.58%",
+    "PickPercentage": "9.21%",
+    "BanPercentage": "6.68%",
     "KDA": 2.12
   },
   {
@@ -331,10 +331,10 @@
     "Tier": "S",
     "Score": 60.38,
     "Trend": -3.25,
-    "Win %": "49.70%",
-    "Role %": "94.75%",
-    "Pick %": "5.07%",
-    "Ban %": "3.44%",
+    "WinPercentage": "49.70%",
+    "RolePercentage": "94.75%",
+    "PickPercentage": "5.07%",
+    "BanPercentage": "3.44%",
     "KDA": 1.84
   },
   {
@@ -344,10 +344,10 @@
     "Tier": "B",
     "Score": 44.23,
     "Trend": 0.35,
-    "Win %": "50.33%",
-    "Role %": "73.14%",
-    "Pick %": "2.06%",
-    "Ban %": "1.68%",
+    "WinPercentage": "50.33%",
+    "RolePercentage": "73.14%",
+    "PickPercentage": "2.06%",
+    "BanPercentage": "1.68%",
     "KDA": 1.99
   },
   {
@@ -357,10 +357,10 @@
     "Tier": "D",
     "Score": 28.08,
     "Trend": -7.39,
-    "Win %": "48.43%",
-    "Role %": "15.53%",
-    "Pick %": "0.47%",
-    "Ban %": "1.70%",
+    "WinPercentage": "48.43%",
+    "RolePercentage": "15.53%",
+    "PickPercentage": "0.47%",
+    "BanPercentage": "1.70%",
     "KDA": 1.76
   },
   {
@@ -370,10 +370,10 @@
     "Tier": "A",
     "Score": 52,
     "Trend": 9.25,
-    "Win %": "52.63%",
-    "Role %": "66.06%",
-    "Pick %": "2.42%",
-    "Ban %": "0.93%",
+    "WinPercentage": "52.63%",
+    "RolePercentage": "66.06%",
+    "PickPercentage": "2.42%",
+    "BanPercentage": "0.93%",
     "KDA": 2.03
   },
   {
@@ -383,10 +383,10 @@
     "Tier": "B",
     "Score": 45.53,
     "Trend": 4.64,
-    "Win %": "52.89%",
-    "Role %": "19.87%",
-    "Pick %": "0.59%",
-    "Ban %": "0.93%",
+    "WinPercentage": "52.89%",
+    "RolePercentage": "19.87%",
+    "PickPercentage": "0.59%",
+    "BanPercentage": "0.93%",
     "KDA": 2.27
   },
   {
@@ -396,10 +396,10 @@
     "Tier": "C",
     "Score": 36.72,
     "Trend": -2.28,
-    "Win %": "47.16%",
-    "Role %": "89.96%",
-    "Pick %": "1.45%",
-    "Ban %": "0.36%",
+    "WinPercentage": "47.16%",
+    "RolePercentage": "89.96%",
+    "PickPercentage": "1.45%",
+    "BanPercentage": "0.36%",
     "KDA": 2.05
   },
   {
@@ -409,10 +409,10 @@
     "Tier": "God",
     "Score": 85.61,
     "Trend": -5.85,
-    "Win %": "49.82%",
-    "Role %": "93.23%",
-    "Pick %": "7.79%",
-    "Ban %": "18.09%",
+    "WinPercentage": "49.82%",
+    "RolePercentage": "93.23%",
+    "PickPercentage": "7.79%",
+    "BanPercentage": "18.09%",
     "KDA": 1.75
   },
   {
@@ -422,10 +422,10 @@
     "Tier": "God",
     "Score": 75,
     "Trend": -11.75,
-    "Win %": "51.74%",
-    "Role %": "82.65%",
-    "Pick %": "8.65%",
-    "Ban %": "10.88%",
+    "WinPercentage": "51.74%",
+    "RolePercentage": "82.65%",
+    "PickPercentage": "8.65%",
+    "BanPercentage": "10.88%",
     "KDA": 2.46
   },
   {
@@ -435,10 +435,10 @@
     "Tier": "B",
     "Score": 44.98,
     "Trend": -1.05,
-    "Win %": "50.71%",
-    "Role %": "15.83%",
-    "Pick %": "1.72%",
-    "Ban %": "10.88%",
+    "WinPercentage": "50.71%",
+    "RolePercentage": "15.83%",
+    "PickPercentage": "1.72%",
+    "BanPercentage": "10.88%",
     "KDA": 2.1
   },
   {
@@ -448,10 +448,10 @@
     "Tier": "B",
     "Score": 46.54,
     "Trend": -1.14,
-    "Win %": "50.99%",
-    "Role %": "85.17%",
-    "Pick %": "2.13%",
-    "Ban %": "1.31%",
+    "WinPercentage": "50.99%",
+    "RolePercentage": "85.17%",
+    "PickPercentage": "2.13%",
+    "BanPercentage": "1.31%",
     "KDA": 2.05
   },
   {
@@ -461,10 +461,10 @@
     "Tier": "B",
     "Score": 41.87,
     "Trend": -1.32,
-    "Win %": "48.92%",
-    "Role %": "94.24%",
-    "Pick %": "5.83%",
-    "Ban %": "11.25%",
+    "WinPercentage": "48.92%",
+    "RolePercentage": "94.24%",
+    "PickPercentage": "5.83%",
+    "BanPercentage": "11.25%",
     "KDA": 2
   },
   {
@@ -474,10 +474,10 @@
     "Tier": "A",
     "Score": 54.65,
     "Trend": -3.32,
-    "Win %": "50.82%",
-    "Role %": "63.48%",
-    "Pick %": "4.98%",
-    "Ban %": "3.79%",
+    "WinPercentage": "50.82%",
+    "RolePercentage": "63.48%",
+    "PickPercentage": "4.98%",
+    "BanPercentage": "3.79%",
     "KDA": 2.7
   },
   {
@@ -487,10 +487,10 @@
     "Tier": "B",
     "Score": 46.01,
     "Trend": 1.2,
-    "Win %": "49.87%",
-    "Role %": "34.02%",
-    "Pick %": "2.52%",
-    "Ban %": "3.79%",
+    "WinPercentage": "49.87%",
+    "RolePercentage": "34.02%",
+    "PickPercentage": "2.52%",
+    "BanPercentage": "3.79%",
     "KDA": 2.16
   },
   {
@@ -500,10 +500,10 @@
     "Tier": "C",
     "Score": 33.9,
     "Trend": 1.96,
-    "Win %": "49.11%",
-    "Role %": "92.08%",
-    "Pick %": "1.57%",
-    "Ban %": "0.86%",
+    "WinPercentage": "49.11%",
+    "RolePercentage": "92.08%",
+    "PickPercentage": "1.57%",
+    "BanPercentage": "0.86%",
     "KDA": 2.51
   },
   {
@@ -513,10 +513,10 @@
     "Tier": "B",
     "Score": 40.83,
     "Trend": -0.32,
-    "Win %": "48.26%",
-    "Role %": "98.47%",
-    "Pick %": "3.16%",
-    "Ban %": "5.63%",
+    "WinPercentage": "48.26%",
+    "RolePercentage": "98.47%",
+    "PickPercentage": "3.16%",
+    "BanPercentage": "5.63%",
     "KDA": 2.73
   },
   {
@@ -526,10 +526,10 @@
     "Tier": "God",
     "Score": 89.22,
     "Trend": 1.78,
-    "Win %": "50.16%",
-    "Role %": "96.07%",
-    "Pick %": "22.55%",
-    "Ban %": "5.82%",
+    "WinPercentage": "50.16%",
+    "RolePercentage": "96.07%",
+    "PickPercentage": "22.55%",
+    "BanPercentage": "5.82%",
     "KDA": 2.37
   },
   {
@@ -539,10 +539,10 @@
     "Tier": "A",
     "Score": 47.9,
     "Trend": -0.04,
-    "Win %": "51.65%",
-    "Role %": "89.05%",
-    "Pick %": "3.15%",
-    "Ban %": "2.46%",
+    "WinPercentage": "51.65%",
+    "RolePercentage": "89.05%",
+    "PickPercentage": "3.15%",
+    "BanPercentage": "2.46%",
     "KDA": 2.64
   },
   {
@@ -552,10 +552,10 @@
     "Tier": "God",
     "Score": 74.85,
     "Trend": -2.69,
-    "Win %": "51.10%",
-    "Role %": "97.41%",
-    "Pick %": "6.14%",
-    "Ban %": "14.82%",
+    "WinPercentage": "51.10%",
+    "RolePercentage": "97.41%",
+    "PickPercentage": "6.14%",
+    "BanPercentage": "14.82%",
     "KDA": 1.7
   },
   {
@@ -565,10 +565,10 @@
     "Tier": "A",
     "Score": 54.63,
     "Trend": 0.01,
-    "Win %": "51.39%",
-    "Role %": "95.18%",
-    "Pick %": "3.74%",
-    "Ban %": "5.44%",
+    "WinPercentage": "51.39%",
+    "RolePercentage": "95.18%",
+    "PickPercentage": "3.74%",
+    "BanPercentage": "5.44%",
     "KDA": 2.44
   },
   {
@@ -578,10 +578,10 @@
     "Tier": "B",
     "Score": 47.11,
     "Trend": -1.94,
-    "Win %": "50.34%",
-    "Role %": "73.80%",
-    "Pick %": "2.05%",
-    "Ban %": "0.40%",
+    "WinPercentage": "50.34%",
+    "RolePercentage": "73.80%",
+    "PickPercentage": "2.05%",
+    "BanPercentage": "0.40%",
     "KDA": 2.55
   },
   {
@@ -591,10 +591,10 @@
     "Tier": "C",
     "Score": 34.05,
     "Trend": -1.87,
-    "Win %": "48.32%",
-    "Role %": "23.91%",
-    "Pick %": "0.63%",
-    "Ban %": "0.41%",
+    "WinPercentage": "48.32%",
+    "RolePercentage": "23.91%",
+    "PickPercentage": "0.63%",
+    "BanPercentage": "0.41%",
     "KDA": 2.19
   },
   {
@@ -604,10 +604,10 @@
     "Tier": "God",
     "Score": 88.94,
     "Trend": 1.38,
-    "Win %": "47.44%",
-    "Role %": "85.96%",
-    "Pick %": "9.16%",
-    "Ban %": "15.52%",
+    "WinPercentage": "47.44%",
+    "RolePercentage": "85.96%",
+    "PickPercentage": "9.16%",
+    "BanPercentage": "15.52%",
     "KDA": 1.85
   },
   {
@@ -617,10 +617,10 @@
     "Tier": "C",
     "Score": 38.56,
     "Trend": -0.62,
-    "Win %": "47.55%",
-    "Role %": "13.32%",
-    "Pick %": "1.53%",
-    "Ban %": "14.98%",
+    "WinPercentage": "47.55%",
+    "RolePercentage": "13.32%",
+    "PickPercentage": "1.53%",
+    "BanPercentage": "14.98%",
     "KDA": 2.06
   },
   {
@@ -630,10 +630,10 @@
     "Tier": "God",
     "Score": 73.45,
     "Trend": -2.81,
-    "Win %": "51.73%",
-    "Role %": "85.69%",
-    "Pick %": "6.21%",
-    "Ban %": "3.20%",
+    "WinPercentage": "51.73%",
+    "RolePercentage": "85.69%",
+    "PickPercentage": "6.21%",
+    "BanPercentage": "3.20%",
     "KDA": 1.99
   },
   {
@@ -643,10 +643,10 @@
     "Tier": "B",
     "Score": 45.95,
     "Trend": -1.3,
-    "Win %": "48.40%",
-    "Role %": "96.66%",
-    "Pick %": "3.38%",
-    "Ban %": "0.71%",
+    "WinPercentage": "48.40%",
+    "RolePercentage": "96.66%",
+    "PickPercentage": "3.38%",
+    "BanPercentage": "0.71%",
     "KDA": 1.82
   },
   {
@@ -656,10 +656,10 @@
     "Tier": "C",
     "Score": 38.96,
     "Trend": -5.2,
-    "Win %": "49.69%",
-    "Role %": "12.52%",
-    "Pick %": "0.42%",
-    "Ban %": "0.28%",
+    "WinPercentage": "49.69%",
+    "RolePercentage": "12.52%",
+    "PickPercentage": "0.42%",
+    "BanPercentage": "0.28%",
     "KDA": 2.24
   },
   {
@@ -669,10 +669,10 @@
     "Tier": "C",
     "Score": 36.77,
     "Trend": 2.44,
-    "Win %": "48.10%",
-    "Role %": "53.37%",
-    "Pick %": "1.82%",
-    "Ban %": "0.28%",
+    "WinPercentage": "48.10%",
+    "RolePercentage": "53.37%",
+    "PickPercentage": "1.82%",
+    "BanPercentage": "0.28%",
     "KDA": 1.95
   },
   {
@@ -682,10 +682,10 @@
     "Tier": "D",
     "Score": 29.64,
     "Trend": -3.64,
-    "Win %": "46.25%",
-    "Role %": "15.79%",
-    "Pick %": "0.49%",
-    "Ban %": "0.28%",
+    "WinPercentage": "46.25%",
+    "RolePercentage": "15.79%",
+    "PickPercentage": "0.49%",
+    "BanPercentage": "0.28%",
     "KDA": 2.18
   },
   {
@@ -695,10 +695,10 @@
     "Tier": "D",
     "Score": 28.82,
     "Trend": 7.78,
-    "Win %": "48.52%",
-    "Role %": "19.05%",
-    "Pick %": "0.57%",
-    "Ban %": "0.28%",
+    "WinPercentage": "48.52%",
+    "RolePercentage": "19.05%",
+    "PickPercentage": "0.57%",
+    "BanPercentage": "0.28%",
     "KDA": 2.63
   },
   {
@@ -708,10 +708,10 @@
     "Tier": "God",
     "Score": 90.33,
     "Trend": 5.16,
-    "Win %": "50.20%",
-    "Role %": "77.10%",
-    "Pick %": "11.88%",
-    "Ban %": "13.65%",
+    "WinPercentage": "50.20%",
+    "RolePercentage": "77.10%",
+    "PickPercentage": "11.88%",
+    "BanPercentage": "13.65%",
     "KDA": 2.52
   },
   {
@@ -721,10 +721,10 @@
     "Tier": "A",
     "Score": 47.95,
     "Trend": 3.06,
-    "Win %": "50.40%",
-    "Role %": "17.16%",
-    "Pick %": "2.65%",
-    "Ban %": "13.65%",
+    "WinPercentage": "50.40%",
+    "RolePercentage": "17.16%",
+    "PickPercentage": "2.65%",
+    "BanPercentage": "13.65%",
     "KDA": 1.67
   },
   {
@@ -734,10 +734,10 @@
     "Tier": "A",
     "Score": 52.5,
     "Trend": 9.79,
-    "Win %": "48.53%",
-    "Role %": "82.72%",
-    "Pick %": "4.56%",
-    "Ban %": "2.01%",
+    "WinPercentage": "48.53%",
+    "RolePercentage": "82.72%",
+    "PickPercentage": "4.56%",
+    "BanPercentage": "2.01%",
     "KDA": 1.65
   },
   {
@@ -747,10 +747,10 @@
     "Tier": "D",
     "Score": 33.81,
     "Trend": 5.62,
-    "Win %": "51.01%",
-    "Role %": "13.30%",
-    "Pick %": "0.72%",
-    "Ban %": "2.01%",
+    "WinPercentage": "51.01%",
+    "RolePercentage": "13.30%",
+    "PickPercentage": "0.72%",
+    "BanPercentage": "2.01%",
     "KDA": 2.36
   },
   {
@@ -760,10 +760,10 @@
     "Tier": "A",
     "Score": 48.1,
     "Trend": 14.03,
-    "Win %": "49.03%",
-    "Role %": "97.76%",
-    "Pick %": "4.37%",
-    "Ban %": "3.46%",
+    "WinPercentage": "49.03%",
+    "RolePercentage": "97.76%",
+    "PickPercentage": "4.37%",
+    "BanPercentage": "3.46%",
     "KDA": 2.79
   },
   {
@@ -773,10 +773,10 @@
     "Tier": "B",
     "Score": 42.02,
     "Trend": 2.97,
-    "Win %": "51.69%",
-    "Role %": "39.55%",
-    "Pick %": "0.89%",
-    "Ban %": "1.33%",
+    "WinPercentage": "51.69%",
+    "RolePercentage": "39.55%",
+    "PickPercentage": "0.89%",
+    "BanPercentage": "1.33%",
     "KDA": 1.83
   },
   {
@@ -786,10 +786,10 @@
     "Tier": "D",
     "Score": 32.88,
     "Trend": 5.05,
-    "Win %": "52.11%",
-    "Role %": "14.34%",
-    "Pick %": "0.28%",
-    "Ban %": "1.33%",
+    "WinPercentage": "52.11%",
+    "RolePercentage": "14.34%",
+    "PickPercentage": "0.28%",
+    "BanPercentage": "1.33%",
     "KDA": 2.01
   },
   {
@@ -799,10 +799,10 @@
     "Tier": "D",
     "Score": 30.41,
     "Trend": -1.05,
-    "Win %": "48.02%",
-    "Role %": "11.22%",
-    "Pick %": "0.24%",
-    "Ban %": "1.46%",
+    "WinPercentage": "48.02%",
+    "RolePercentage": "11.22%",
+    "PickPercentage": "0.24%",
+    "BanPercentage": "1.46%",
     "KDA": 1.75
   },
   {
@@ -812,10 +812,10 @@
     "Tier": "D",
     "Score": 30.14,
     "Trend": -1.67,
-    "Win %": "49.27%",
-    "Role %": "33.68%",
-    "Pick %": "0.70%",
-    "Ban %": "1.33%",
+    "WinPercentage": "49.27%",
+    "RolePercentage": "33.68%",
+    "PickPercentage": "0.70%",
+    "BanPercentage": "1.33%",
     "KDA": 1.58
   },
   {
@@ -825,10 +825,10 @@
     "Tier": "B",
     "Score": 43.84,
     "Trend": -1.73,
-    "Win %": "49.98%",
-    "Role %": "92.53%",
-    "Pick %": "2.83%",
-    "Ban %": "4.47%",
+    "WinPercentage": "49.98%",
+    "RolePercentage": "92.53%",
+    "PickPercentage": "2.83%",
+    "BanPercentage": "4.47%",
     "KDA": 1.36
   },
   {
@@ -838,10 +838,10 @@
     "Tier": "S",
     "Score": 70.4,
     "Trend": -10.21,
-    "Win %": "49.06%",
-    "Role %": "56.14%",
-    "Pick %": "5.94%",
-    "Ban %": "21.49%",
+    "WinPercentage": "49.06%",
+    "RolePercentage": "56.14%",
+    "PickPercentage": "5.94%",
+    "BanPercentage": "21.49%",
     "KDA": 1.55
   },
   {
@@ -851,10 +851,10 @@
     "Tier": "A",
     "Score": 52.92,
     "Trend": -2.9,
-    "Win %": "49.07%",
-    "Role %": "42.09%",
-    "Pick %": "4.61%",
-    "Ban %": "21.49%",
+    "WinPercentage": "49.07%",
+    "RolePercentage": "42.09%",
+    "PickPercentage": "4.61%",
+    "BanPercentage": "21.49%",
     "KDA": 1.74
   },
   {
@@ -864,10 +864,10 @@
     "Tier": "D",
     "Score": 32.53,
     "Trend": -0.84,
-    "Win %": "47.66%",
-    "Role %": "78.15%",
-    "Pick %": "1.21%",
-    "Ban %": "0.44%",
+    "WinPercentage": "47.66%",
+    "RolePercentage": "78.15%",
+    "PickPercentage": "1.21%",
+    "BanPercentage": "0.44%",
     "KDA": 3.1
   },
   {
@@ -877,10 +877,10 @@
     "Tier": "D",
     "Score": 22.55,
     "Trend": -7.72,
-    "Win %": "42.25%",
-    "Role %": "11.22%",
-    "Pick %": "0.17%",
-    "Ban %": "0.41%",
+    "WinPercentage": "42.25%",
+    "RolePercentage": "11.22%",
+    "PickPercentage": "0.17%",
+    "BanPercentage": "0.41%",
     "KDA": 2.54
   },
   {
@@ -890,10 +890,10 @@
     "Tier": "S",
     "Score": 58.37,
     "Trend": 0.3,
-    "Win %": "52.99%",
-    "Role %": "97.02%",
-    "Pick %": "4.33%",
-    "Ban %": "0.97%",
+    "WinPercentage": "52.99%",
+    "RolePercentage": "97.02%",
+    "PickPercentage": "4.33%",
+    "BanPercentage": "0.97%",
     "KDA": 3.12
   },
   {
@@ -903,10 +903,10 @@
     "Tier": "B",
     "Score": 42.78,
     "Trend": -8.09,
-    "Win %": "48.89%",
-    "Role %": "88.90%",
-    "Pick %": "2.87%",
-    "Ban %": "0.44%",
+    "WinPercentage": "48.89%",
+    "RolePercentage": "88.90%",
+    "PickPercentage": "2.87%",
+    "BanPercentage": "0.44%",
     "KDA": 3.12
   },
   {
@@ -916,10 +916,10 @@
     "Tier": "God",
     "Score": 72.03,
     "Trend": -6.25,
-    "Win %": "50.89%",
-    "Role %": "84.23%",
-    "Pick %": "6.26%",
-    "Ban %": "10.29%",
+    "WinPercentage": "50.89%",
+    "RolePercentage": "84.23%",
+    "PickPercentage": "6.26%",
+    "BanPercentage": "10.29%",
     "KDA": 1.62
   },
   {
@@ -929,10 +929,10 @@
     "Tier": "C",
     "Score": 35.95,
     "Trend": 4.16,
-    "Win %": "51.89%",
-    "Role %": "13.66%",
-    "Pick %": "1.01%",
-    "Ban %": "9.86%",
+    "WinPercentage": "51.89%",
+    "RolePercentage": "13.66%",
+    "PickPercentage": "1.01%",
+    "BanPercentage": "9.86%",
     "KDA": 2.11
   },
   {
@@ -942,10 +942,10 @@
     "Tier": "B",
     "Score": 43.44,
     "Trend": 3.65,
-    "Win %": "47.76%",
-    "Role %": "82.08%",
-    "Pick %": "3.42%",
-    "Ban %": "0.76%",
+    "WinPercentage": "47.76%",
+    "RolePercentage": "82.08%",
+    "PickPercentage": "3.42%",
+    "BanPercentage": "0.76%",
     "KDA": 1.66
   },
   {
@@ -955,10 +955,10 @@
     "Tier": "C",
     "Score": 36.24,
     "Trend": -1.49,
-    "Win %": "48.62%",
-    "Role %": "15.68%",
-    "Pick %": "0.61%",
-    "Ban %": "0.74%",
+    "WinPercentage": "48.62%",
+    "RolePercentage": "15.68%",
+    "PickPercentage": "0.61%",
+    "BanPercentage": "0.74%",
     "KDA": 1.98
   },
   {
@@ -968,10 +968,10 @@
     "Tier": "God",
     "Score": 83.9,
     "Trend": -4.79,
-    "Win %": "51.35%",
-    "Role %": "97.27%",
-    "Pick %": "18.69%",
-    "Ban %": "4.49%",
+    "WinPercentage": "51.35%",
+    "RolePercentage": "97.27%",
+    "PickPercentage": "18.69%",
+    "BanPercentage": "4.49%",
     "KDA": 2.83
   },
   {
@@ -981,10 +981,10 @@
     "Tier": "A",
     "Score": 51.92,
     "Trend": -12.1,
-    "Win %": "49.39%",
-    "Role %": "98.56%",
-    "Pick %": "9.68%",
-    "Ban %": "2.60%",
+    "WinPercentage": "49.39%",
+    "RolePercentage": "98.56%",
+    "PickPercentage": "9.68%",
+    "BanPercentage": "2.60%",
     "KDA": 2.14
   },
   {
@@ -994,10 +994,10 @@
     "Tier": "S",
     "Score": 70.6,
     "Trend": 1.79,
-    "Win %": "50.47%",
-    "Role %": "93.99%",
-    "Pick %": "15.60%",
-    "Ban %": "2.82%",
+    "WinPercentage": "50.47%",
+    "RolePercentage": "93.99%",
+    "PickPercentage": "15.60%",
+    "BanPercentage": "2.82%",
     "KDA": 2.38
   },
   {
@@ -1007,10 +1007,10 @@
     "Tier": "C",
     "Score": 38.32,
     "Trend": 2.55,
-    "Win %": "50.07%",
-    "Role %": "90.82%",
-    "Pick %": "3.37%",
-    "Ban %": "1.12%",
+    "WinPercentage": "50.07%",
+    "RolePercentage": "90.82%",
+    "PickPercentage": "3.37%",
+    "BanPercentage": "1.12%",
     "KDA": 2.29
   },
   {
@@ -1020,10 +1020,10 @@
     "Tier": "S",
     "Score": 64.62,
     "Trend": -0.09,
-    "Win %": "49.22%",
-    "Role %": "81.55%",
-    "Pick %": "8.87%",
-    "Ban %": "4.71%",
+    "WinPercentage": "49.22%",
+    "RolePercentage": "81.55%",
+    "PickPercentage": "8.87%",
+    "BanPercentage": "4.71%",
     "KDA": 2.67
   },
   {
@@ -1033,10 +1033,10 @@
     "Tier": "B",
     "Score": 45.59,
     "Trend": 0,
-    "Win %": "50.06%",
-    "Role %": "10.58%",
-    "Pick %": "1.24%",
-    "Ban %": "4.71%",
+    "WinPercentage": "50.06%",
+    "RolePercentage": "10.58%",
+    "PickPercentage": "1.24%",
+    "BanPercentage": "4.71%",
     "KDA": 2.81
   },
   {
@@ -1046,10 +1046,10 @@
     "Tier": "B",
     "Score": 45.52,
     "Trend": -3.36,
-    "Win %": "49.40%",
-    "Role %": "68.00%",
-    "Pick %": "3.62%",
-    "Ban %": "9.97%",
+    "WinPercentage": "49.40%",
+    "RolePercentage": "68.00%",
+    "PickPercentage": "3.62%",
+    "BanPercentage": "9.97%",
     "KDA": 2.48
   },
   {
@@ -1059,10 +1059,10 @@
     "Tier": "B",
     "Score": 43.34,
     "Trend": 0,
-    "Win %": "51.99%",
-    "Role %": "10.91%",
-    "Pick %": "0.54%",
-    "Ban %": "9.97%",
+    "WinPercentage": "51.99%",
+    "RolePercentage": "10.91%",
+    "PickPercentage": "0.54%",
+    "BanPercentage": "9.97%",
     "KDA": 2.15
   },
   {
@@ -1072,10 +1072,10 @@
     "Tier": "C",
     "Score": 38.07,
     "Trend": -2.57,
-    "Win %": "53.23%",
-    "Role %": "15.68%",
-    "Pick %": "0.92%",
-    "Ban %": "9.97%",
+    "WinPercentage": "53.23%",
+    "RolePercentage": "15.68%",
+    "PickPercentage": "0.92%",
+    "BanPercentage": "9.97%",
     "KDA": 2.17
   },
   {
@@ -1085,10 +1085,10 @@
     "Tier": "A",
     "Score": 53.59,
     "Trend": 0.53,
-    "Win %": "51.80%",
-    "Role %": "95.40%",
-    "Pick %": "3.25%",
-    "Ban %": "8.73%",
+    "WinPercentage": "51.80%",
+    "RolePercentage": "95.40%",
+    "PickPercentage": "3.25%",
+    "BanPercentage": "8.73%",
     "KDA": 2.33
   },
   {
@@ -1098,10 +1098,10 @@
     "Tier": "God",
     "Score": 78.43,
     "Trend": 4.98,
-    "Win %": "50.46%",
-    "Role %": "93.85%",
-    "Pick %": "10.26%",
-    "Ban %": "15.41%",
+    "WinPercentage": "50.46%",
+    "RolePercentage": "93.85%",
+    "PickPercentage": "10.26%",
+    "BanPercentage": "15.41%",
     "KDA": 2.25
   },
   {
@@ -1111,10 +1111,10 @@
     "Tier": "S",
     "Score": 69.22,
     "Trend": 0.13,
-    "Win %": "53.33%",
-    "Role %": "77.44%",
-    "Pick %": "5.17%",
-    "Ban %": "3.03%",
+    "WinPercentage": "53.33%",
+    "RolePercentage": "77.44%",
+    "PickPercentage": "5.17%",
+    "BanPercentage": "3.03%",
     "KDA": 1.8
   },
   {
@@ -1124,10 +1124,10 @@
     "Tier": "B",
     "Score": 47.54,
     "Trend": -2.48,
-    "Win %": "52.86%",
-    "Role %": "19.68%",
-    "Pick %": "1.29%",
-    "Ban %": "3.03%",
+    "WinPercentage": "52.86%",
+    "RolePercentage": "19.68%",
+    "PickPercentage": "1.29%",
+    "BanPercentage": "3.03%",
     "KDA": 2.21
   },
   {
@@ -1137,10 +1137,10 @@
     "Tier": "God",
     "Score": 76.23,
     "Trend": -11.46,
-    "Win %": "50.58%",
-    "Role %": "96.03%",
-    "Pick %": "9.56%",
-    "Ban %": "11.92%",
+    "WinPercentage": "50.58%",
+    "RolePercentage": "96.03%",
+    "PickPercentage": "9.56%",
+    "BanPercentage": "11.92%",
     "KDA": 2.35
   },
   {
@@ -1150,10 +1150,10 @@
     "Tier": "B",
     "Score": 44.02,
     "Trend": -0.85,
-    "Win %": "52.09%",
-    "Role %": "18.18%",
-    "Pick %": "0.42%",
-    "Ban %": "0.63%",
+    "WinPercentage": "52.09%",
+    "RolePercentage": "18.18%",
+    "PickPercentage": "0.42%",
+    "BanPercentage": "0.63%",
     "KDA": 2.37
   },
   {
@@ -1163,10 +1163,10 @@
     "Tier": "B",
     "Score": 40.18,
     "Trend": 1.42,
-    "Win %": "49.44%",
-    "Role %": "77.30%",
-    "Pick %": "1.87%",
-    "Ban %": "0.63%",
+    "WinPercentage": "49.44%",
+    "RolePercentage": "77.30%",
+    "PickPercentage": "1.87%",
+    "BanPercentage": "0.63%",
     "KDA": 1.93
   },
   {
@@ -1176,10 +1176,10 @@
     "Tier": "S",
     "Score": 70.76,
     "Trend": -11.07,
-    "Win %": "51.47%",
-    "Role %": "98.41%",
-    "Pick %": "8.01%",
-    "Ban %": "8.49%",
+    "WinPercentage": "51.47%",
+    "RolePercentage": "98.41%",
+    "PickPercentage": "8.01%",
+    "BanPercentage": "8.49%",
     "KDA": 2.55
   },
   {
@@ -1189,10 +1189,10 @@
     "Tier": "A",
     "Score": 47.68,
     "Trend": 4.12,
-    "Win %": "50.56%",
-    "Role %": "93.10%",
-    "Pick %": "4.18%",
-    "Ban %": "3.69%",
+    "WinPercentage": "50.56%",
+    "RolePercentage": "93.10%",
+    "PickPercentage": "4.18%",
+    "BanPercentage": "3.69%",
     "KDA": 2.25
   },
   {
@@ -1202,10 +1202,10 @@
     "Tier": "A",
     "Score": 52.64,
     "Trend": 0.43,
-    "Win %": "56.29%",
-    "Role %": "10.10%",
-    "Pick %": "0.18%",
-    "Ban %": "0.88%",
+    "WinPercentage": "56.29%",
+    "RolePercentage": "10.10%",
+    "PickPercentage": "0.18%",
+    "BanPercentage": "0.88%",
     "KDA": 2.7
   },
   {
@@ -1215,10 +1215,10 @@
     "Tier": "A",
     "Score": 49.41,
     "Trend": 6.2,
-    "Win %": "52.39%",
-    "Role %": "86.00%",
-    "Pick %": "1.64%",
-    "Ban %": "0.84%",
+    "WinPercentage": "52.39%",
+    "RolePercentage": "86.00%",
+    "PickPercentage": "1.64%",
+    "BanPercentage": "0.84%",
     "KDA": 2.38
   },
   {
@@ -1228,10 +1228,10 @@
     "Tier": "B",
     "Score": 41.49,
     "Trend": 0.53,
-    "Win %": "53.22%",
-    "Role %": "87.51%",
-    "Pick %": "2.39%",
-    "Ban %": "0.58%",
+    "WinPercentage": "53.22%",
+    "RolePercentage": "87.51%",
+    "PickPercentage": "2.39%",
+    "BanPercentage": "0.58%",
     "KDA": 2.19
   },
   {
@@ -1241,10 +1241,10 @@
     "Tier": "A",
     "Score": 49.32,
     "Trend": -0.69,
-    "Win %": "46.38%",
-    "Role %": "92.65%",
-    "Pick %": "4.51%",
-    "Ban %": "8.09%",
+    "WinPercentage": "46.38%",
+    "RolePercentage": "92.65%",
+    "PickPercentage": "4.51%",
+    "BanPercentage": "8.09%",
     "KDA": 2.56
   },
   {
@@ -1254,10 +1254,10 @@
     "Tier": "God",
     "Score": 72.07,
     "Trend": -15.01,
-    "Win %": "46.13%",
-    "Role %": "92.90%",
-    "Pick %": "10.94%",
-    "Ban %": "9.32%",
+    "WinPercentage": "46.13%",
+    "RolePercentage": "92.90%",
+    "PickPercentage": "10.94%",
+    "BanPercentage": "9.32%",
     "KDA": 2.54
   },
   {
@@ -1267,10 +1267,10 @@
     "Tier": "S",
     "Score": 60.22,
     "Trend": 1.72,
-    "Win %": "49.16%",
-    "Role %": "98.09%",
-    "Pick %": "7.85%",
-    "Ban %": "7.94%",
+    "WinPercentage": "49.16%",
+    "RolePercentage": "98.09%",
+    "PickPercentage": "7.85%",
+    "BanPercentage": "7.94%",
     "KDA": 2.31
   },
   {
@@ -1280,10 +1280,10 @@
     "Tier": "A",
     "Score": 52.03,
     "Trend": -3.96,
-    "Win %": "50.35%",
-    "Role %": "82.50%",
-    "Pick %": "4.72%",
-    "Ban %": "2.29%",
+    "WinPercentage": "50.35%",
+    "RolePercentage": "82.50%",
+    "PickPercentage": "4.72%",
+    "BanPercentage": "2.29%",
     "KDA": 2.7
   },
   {
@@ -1293,10 +1293,10 @@
     "Tier": "B",
     "Score": 41.35,
     "Trend": 7.39,
-    "Win %": "52.23%",
-    "Role %": "13.92%",
-    "Pick %": "0.84%",
-    "Ban %": "2.21%",
+    "WinPercentage": "52.23%",
+    "RolePercentage": "13.92%",
+    "PickPercentage": "0.84%",
+    "BanPercentage": "2.21%",
     "KDA": 2
   },
   {
@@ -1306,10 +1306,10 @@
     "Tier": "A",
     "Score": 48.46,
     "Trend": 0.35,
-    "Win %": "50.86%",
-    "Role %": "90.83%",
-    "Pick %": "2.58%",
-    "Ban %": "0.81%",
+    "WinPercentage": "50.86%",
+    "RolePercentage": "90.83%",
+    "PickPercentage": "2.58%",
+    "BanPercentage": "0.81%",
     "KDA": 2.29
   },
   {
@@ -1319,10 +1319,10 @@
     "Tier": "God",
     "Score": 87.01,
     "Trend": -0.08,
-    "Win %": "51.84%",
-    "Role %": "88.68%",
-    "Pick %": "17.48%",
-    "Ban %": "18.71%",
+    "WinPercentage": "51.84%",
+    "RolePercentage": "88.68%",
+    "PickPercentage": "17.48%",
+    "BanPercentage": "18.71%",
     "KDA": 2.3
   },
   {
@@ -1332,10 +1332,10 @@
     "Tier": "S",
     "Score": 71.61,
     "Trend": -3.38,
-    "Win %": "50.54%",
-    "Role %": "95.26%",
-    "Pick %": "8.69%",
-    "Ban %": "15.27%",
+    "WinPercentage": "50.54%",
+    "RolePercentage": "95.26%",
+    "PickPercentage": "8.69%",
+    "BanPercentage": "15.27%",
     "KDA": 3.01
   },
   {
@@ -1345,10 +1345,10 @@
     "Tier": "S",
     "Score": 68.94,
     "Trend": -6.85,
-    "Win %": "48.84%",
-    "Role %": "62.40%",
-    "Pick %": "9.99%",
-    "Ban %": "9.09%",
+    "WinPercentage": "48.84%",
+    "RolePercentage": "62.40%",
+    "PickPercentage": "9.99%",
+    "BanPercentage": "9.09%",
     "KDA": 2.41
   },
   {
@@ -1358,10 +1358,10 @@
     "Tier": "S",
     "Score": 60.28,
     "Trend": -0.78,
-    "Win %": "50.84%",
-    "Role %": "34.08%",
-    "Pick %": "4.92%",
-    "Ban %": "9.09%",
+    "WinPercentage": "50.84%",
+    "RolePercentage": "34.08%",
+    "PickPercentage": "4.92%",
+    "BanPercentage": "9.09%",
     "KDA": 2.74
   },
   {
@@ -1371,10 +1371,10 @@
     "Tier": "A",
     "Score": 57.47,
     "Trend": -1.28,
-    "Win %": "50.93%",
-    "Role %": "72.33%",
-    "Pick %": "3.64%",
-    "Ban %": "3.59%",
+    "WinPercentage": "50.93%",
+    "RolePercentage": "72.33%",
+    "PickPercentage": "3.64%",
+    "BanPercentage": "3.59%",
     "KDA": 2.23
   },
   {
@@ -1384,10 +1384,10 @@
     "Tier": "B",
     "Score": 39.81,
     "Trend": -0.95,
-    "Win %": "49.57%",
-    "Role %": "12.45%",
-    "Pick %": "0.63%",
-    "Ban %": "3.59%",
+    "WinPercentage": "49.57%",
+    "RolePercentage": "12.45%",
+    "PickPercentage": "0.63%",
+    "BanPercentage": "3.59%",
     "KDA": 2.3
   },
   {
@@ -1397,10 +1397,10 @@
     "Tier": "D",
     "Score": 28.53,
     "Trend": -3.31,
-    "Win %": "45.74%",
-    "Role %": "13.57%",
-    "Pick %": "0.75%",
-    "Ban %": "3.57%",
+    "WinPercentage": "45.74%",
+    "RolePercentage": "13.57%",
+    "PickPercentage": "0.75%",
+    "BanPercentage": "3.57%",
     "KDA": 1.95
   },
   {
@@ -1410,10 +1410,10 @@
     "Tier": "A",
     "Score": 50.16,
     "Trend": -0.68,
-    "Win %": "51.68%",
-    "Role %": "91.18%",
-    "Pick %": "2.91%",
-    "Ban %": "3.24%",
+    "WinPercentage": "51.68%",
+    "RolePercentage": "91.18%",
+    "PickPercentage": "2.91%",
+    "BanPercentage": "3.24%",
     "KDA": 2.08
   },
   {
@@ -1423,10 +1423,10 @@
     "Tier": "B",
     "Score": 40.32,
     "Trend": 6.01,
-    "Win %": "51.00%",
-    "Role %": "76.16%",
-    "Pick %": "1.05%",
-    "Ban %": "0.11%",
+    "WinPercentage": "51.00%",
+    "RolePercentage": "76.16%",
+    "PickPercentage": "1.05%",
+    "BanPercentage": "0.11%",
     "KDA": 2.15
   },
   {
@@ -1436,10 +1436,10 @@
     "Tier": "C",
     "Score": 34.52,
     "Trend": 9.74,
-    "Win %": "50.87%",
-    "Role %": "16.98%",
-    "Pick %": "0.28%",
-    "Ban %": "0.11%",
+    "WinPercentage": "50.87%",
+    "RolePercentage": "16.98%",
+    "PickPercentage": "0.28%",
+    "BanPercentage": "0.11%",
     "KDA": 1.99
   },
   {
@@ -1449,10 +1449,10 @@
     "Tier": "S",
     "Score": 62.22,
     "Trend": -15.14,
-    "Win %": "49.62%",
-    "Role %": "90.90%",
-    "Pick %": "6.47%",
-    "Ban %": "17.86%",
+    "WinPercentage": "49.62%",
+    "RolePercentage": "90.90%",
+    "PickPercentage": "6.47%",
+    "BanPercentage": "17.86%",
     "KDA": 1.97
   },
   {
@@ -1462,10 +1462,10 @@
     "Tier": "S",
     "Score": 58.89,
     "Trend": -15.38,
-    "Win %": "50.35%",
-    "Role %": "93.13%",
-    "Pick %": "11.32%",
-    "Ban %": "3.61%",
+    "WinPercentage": "50.35%",
+    "RolePercentage": "93.13%",
+    "PickPercentage": "11.32%",
+    "BanPercentage": "3.61%",
     "KDA": 2.19
   },
   {
@@ -1475,10 +1475,10 @@
     "Tier": "God",
     "Score": 83.44,
     "Trend": -5.33,
-    "Win %": "50.35%",
-    "Role %": "81.21%",
-    "Pick %": "7.95%",
-    "Ban %": "9.23%",
+    "WinPercentage": "50.35%",
+    "RolePercentage": "81.21%",
+    "PickPercentage": "7.95%",
+    "BanPercentage": "9.23%",
     "KDA": 1.8
   },
   {
@@ -1488,10 +1488,10 @@
     "Tier": "C",
     "Score": 38.12,
     "Trend": 2.94,
-    "Win %": "51.47%",
-    "Role %": "13.23%",
-    "Pick %": "1.34%",
-    "Ban %": "9.94%",
+    "WinPercentage": "51.47%",
+    "RolePercentage": "13.23%",
+    "PickPercentage": "1.34%",
+    "BanPercentage": "9.94%",
     "KDA": 2.33
   },
   {
@@ -1501,10 +1501,10 @@
     "Tier": "S",
     "Score": 61.52,
     "Trend": -6.27,
-    "Win %": "48.56%",
-    "Role %": "87.39%",
-    "Pick %": "6.70%",
-    "Ban %": "23.21%",
+    "WinPercentage": "48.56%",
+    "RolePercentage": "87.39%",
+    "PickPercentage": "6.70%",
+    "BanPercentage": "23.21%",
     "KDA": 2.38
   },
   {
@@ -1514,10 +1514,10 @@
     "Tier": "God",
     "Score": 86.73,
     "Trend": -0.09,
-    "Win %": "51.60%",
-    "Role %": "99.55%",
-    "Pick %": "13.36%",
-    "Ban %": "6.93%",
+    "WinPercentage": "51.60%",
+    "RolePercentage": "99.55%",
+    "PickPercentage": "13.36%",
+    "BanPercentage": "6.93%",
     "KDA": 3.19
   },
   {
@@ -1527,10 +1527,10 @@
     "Tier": "A",
     "Score": 50.78,
     "Trend": -5.37,
-    "Win %": "49.38%",
-    "Role %": "76.12%",
-    "Pick %": "3.74%",
-    "Ban %": "3.40%",
+    "WinPercentage": "49.38%",
+    "RolePercentage": "76.12%",
+    "PickPercentage": "3.74%",
+    "BanPercentage": "3.40%",
     "KDA": 1.75
   },
   {
@@ -1540,10 +1540,10 @@
     "Tier": "C",
     "Score": 35.6,
     "Trend": 0,
-    "Win %": "48.23%",
-    "Role %": "12.69%",
-    "Pick %": "0.37%",
-    "Ban %": "3.40%",
+    "WinPercentage": "48.23%",
+    "RolePercentage": "12.69%",
+    "PickPercentage": "0.37%",
+    "BanPercentage": "3.40%",
     "KDA": 2.13
   },
   {
@@ -1553,10 +1553,10 @@
     "Tier": "God",
     "Score": 77.72,
     "Trend": -2.88,
-    "Win %": "50.69%",
-    "Role %": "97.92%",
-    "Pick %": "11.00%",
-    "Ban %": "16.38%",
+    "WinPercentage": "50.69%",
+    "RolePercentage": "97.92%",
+    "PickPercentage": "11.00%",
+    "BanPercentage": "16.38%",
     "KDA": 2.35
   },
   {
@@ -1566,10 +1566,10 @@
     "Tier": "A",
     "Score": 49.89,
     "Trend": -2.15,
-    "Win %": "53.11%",
-    "Role %": "55.59%",
-    "Pick %": "1.80%",
-    "Ban %": "0.59%",
+    "WinPercentage": "53.11%",
+    "RolePercentage": "55.59%",
+    "PickPercentage": "1.80%",
+    "BanPercentage": "0.59%",
     "KDA": 2.28
   },
   {
@@ -1579,10 +1579,10 @@
     "Tier": "D",
     "Score": 33.66,
     "Trend": 0.85,
-    "Win %": "48.31%",
-    "Role %": "25.46%",
-    "Pick %": "0.82%",
-    "Ban %": "0.59%",
+    "WinPercentage": "48.31%",
+    "RolePercentage": "25.46%",
+    "PickPercentage": "0.82%",
+    "BanPercentage": "0.59%",
     "KDA": 1.96
   },
   {
@@ -1592,10 +1592,10 @@
     "Tier": "D",
     "Score": 25.64,
     "Trend": -1.41,
-    "Win %": "47.88%",
-    "Role %": "10.67%",
-    "Pick %": "0.29%",
-    "Ban %": "0.59%",
+    "WinPercentage": "47.88%",
+    "RolePercentage": "10.67%",
+    "PickPercentage": "0.29%",
+    "BanPercentage": "0.59%",
     "KDA": 1.76
   },
   {
@@ -1605,10 +1605,10 @@
     "Tier": "A",
     "Score": 50.32,
     "Trend": -4.62,
-    "Win %": "48.23%",
-    "Role %": "90.15%",
-    "Pick %": "5.10%",
-    "Ban %": "4.59%",
+    "WinPercentage": "48.23%",
+    "RolePercentage": "90.15%",
+    "PickPercentage": "5.10%",
+    "BanPercentage": "4.59%",
     "KDA": 2.83
   },
   {
@@ -1618,10 +1618,10 @@
     "Tier": "S",
     "Score": 61.47,
     "Trend": -5.43,
-    "Win %": "52.80%",
-    "Role %": "94.91%",
-    "Pick %": "5.36%",
-    "Ban %": "6.01%",
+    "WinPercentage": "52.80%",
+    "RolePercentage": "94.91%",
+    "PickPercentage": "5.36%",
+    "BanPercentage": "6.01%",
     "KDA": 2.64
   },
   {
@@ -1631,10 +1631,10 @@
     "Tier": "B",
     "Score": 44.9,
     "Trend": 5.87,
-    "Win %": "50.65%",
-    "Role %": "87.11%",
-    "Pick %": "2.82%",
-    "Ban %": "1.23%",
+    "WinPercentage": "50.65%",
+    "RolePercentage": "87.11%",
+    "PickPercentage": "2.82%",
+    "BanPercentage": "1.23%",
     "KDA": 2.8
   },
   {
@@ -1644,10 +1644,10 @@
     "Tier": "S",
     "Score": 62.9,
     "Trend": 54.24,
-    "Win %": "53.18%",
-    "Role %": "46.39%",
-    "Pick %": "3.96%",
-    "Ban %": "8.89%",
+    "WinPercentage": "53.18%",
+    "RolePercentage": "46.39%",
+    "PickPercentage": "3.96%",
+    "BanPercentage": "8.89%",
     "KDA": 1.79
   },
   {
@@ -1657,10 +1657,10 @@
     "Tier": "A",
     "Score": 54.61,
     "Trend": 39.7,
-    "Win %": "51.94%",
-    "Role %": "51.48%",
-    "Pick %": "4.57%",
-    "Ban %": "8.89%",
+    "WinPercentage": "51.94%",
+    "RolePercentage": "51.48%",
+    "PickPercentage": "4.57%",
+    "BanPercentage": "8.89%",
     "KDA": 2.37
   },
   {
@@ -1670,10 +1670,10 @@
     "Tier": "B",
     "Score": 41.78,
     "Trend": -3.9,
-    "Win %": "47.54%",
-    "Role %": "91.85%",
-    "Pick %": "2.22%",
-    "Ban %": "0.17%",
+    "WinPercentage": "47.54%",
+    "RolePercentage": "91.85%",
+    "PickPercentage": "2.22%",
+    "BanPercentage": "0.17%",
     "KDA": 2.41
   },
   {
@@ -1683,10 +1683,10 @@
     "Tier": "S",
     "Score": 59.69,
     "Trend": -2.96,
-    "Win %": "50.96%",
-    "Role %": "92.72%",
-    "Pick %": "4.07%",
-    "Ban %": "0.71%",
+    "WinPercentage": "50.96%",
+    "RolePercentage": "92.72%",
+    "PickPercentage": "4.07%",
+    "BanPercentage": "0.71%",
     "KDA": 2.26
   },
   {
@@ -1696,10 +1696,10 @@
     "Tier": "B",
     "Score": 46.09,
     "Trend": 1.12,
-    "Win %": "51.67%",
-    "Role %": "27.59%",
-    "Pick %": "1.44%",
-    "Ban %": "1.10%",
+    "WinPercentage": "51.67%",
+    "RolePercentage": "27.59%",
+    "PickPercentage": "1.44%",
+    "BanPercentage": "1.10%",
     "KDA": 2.27
   },
   {
@@ -1709,10 +1709,10 @@
     "Tier": "C",
     "Score": 39.4,
     "Trend": 1.71,
-    "Win %": "50.76%",
-    "Role %": "21.56%",
-    "Pick %": "1.13%",
-    "Ban %": "1.14%",
+    "WinPercentage": "50.76%",
+    "RolePercentage": "21.56%",
+    "PickPercentage": "1.13%",
+    "BanPercentage": "1.14%",
     "KDA": 1.99
   },
   {
@@ -1722,10 +1722,10 @@
     "Tier": "C",
     "Score": 37.01,
     "Trend": 1.85,
-    "Win %": "47.70%",
-    "Role %": "43.90%",
-    "Pick %": "2.33%",
-    "Ban %": "1.10%",
+    "WinPercentage": "47.70%",
+    "RolePercentage": "43.90%",
+    "PickPercentage": "2.33%",
+    "BanPercentage": "1.10%",
     "KDA": 1.93
   },
   {
@@ -1735,10 +1735,10 @@
     "Tier": "B",
     "Score": 40.98,
     "Trend": 0.23,
-    "Win %": "50.24%",
-    "Role %": "36.92%",
-    "Pick %": "1.56%",
-    "Ban %": "2.11%",
+    "WinPercentage": "50.24%",
+    "RolePercentage": "36.92%",
+    "PickPercentage": "1.56%",
+    "BanPercentage": "2.11%",
     "KDA": 2
   },
   {
@@ -1748,10 +1748,10 @@
     "Tier": "C",
     "Score": 36.22,
     "Trend": -2.84,
-    "Win %": "48.71%",
-    "Role %": "52.54%",
-    "Pick %": "2.25%",
-    "Ban %": "2.11%",
+    "WinPercentage": "48.71%",
+    "RolePercentage": "52.54%",
+    "PickPercentage": "2.25%",
+    "BanPercentage": "2.11%",
     "KDA": 2.55
   },
   {
@@ -1761,10 +1761,10 @@
     "Tier": "S",
     "Score": 71.35,
     "Trend": -16.91,
-    "Win %": "48.18%",
-    "Role %": "92.21%",
-    "Pick %": "10.19%",
-    "Ban %": "21.73%",
+    "WinPercentage": "48.18%",
+    "RolePercentage": "92.21%",
+    "PickPercentage": "10.19%",
+    "BanPercentage": "21.73%",
     "KDA": 2.11
   },
   {
@@ -1774,10 +1774,10 @@
     "Tier": "A",
     "Score": 49.14,
     "Trend": -0.21,
-    "Win %": "49.31%",
-    "Role %": "67.76%",
-    "Pick %": "3.88%",
-    "Ban %": "6.22%",
+    "WinPercentage": "49.31%",
+    "RolePercentage": "67.76%",
+    "PickPercentage": "3.88%",
+    "BanPercentage": "6.22%",
     "KDA": 1.99
   },
   {
@@ -1787,10 +1787,10 @@
     "Tier": "D",
     "Score": 31.35,
     "Trend": -0.03,
-    "Win %": "48.23%",
-    "Role %": "27.57%",
-    "Pick %": "1.57%",
-    "Ban %": "6.22%",
+    "WinPercentage": "48.23%",
+    "RolePercentage": "27.57%",
+    "PickPercentage": "1.57%",
+    "BanPercentage": "6.22%",
     "KDA": 2.37
   },
   {
@@ -1800,10 +1800,10 @@
     "Tier": "B",
     "Score": 44.37,
     "Trend": 0.97,
-    "Win %": "51.90%",
-    "Role %": "79.44%",
-    "Pick %": "1.70%",
-    "Ban %": "1.10%",
+    "WinPercentage": "51.90%",
+    "RolePercentage": "79.44%",
+    "PickPercentage": "1.70%",
+    "BanPercentage": "1.10%",
     "KDA": 1.82
   },
   {
@@ -1813,10 +1813,10 @@
     "Tier": "A",
     "Score": 50.05,
     "Trend": -1.07,
-    "Win %": "49.61%",
-    "Role %": "98.33%",
-    "Pick %": "4.19%",
-    "Ban %": "0.29%",
+    "WinPercentage": "49.61%",
+    "RolePercentage": "98.33%",
+    "PickPercentage": "4.19%",
+    "BanPercentage": "0.29%",
     "KDA": 2.81
   },
   {
@@ -1826,10 +1826,10 @@
     "Tier": "B",
     "Score": 44.59,
     "Trend": -2.37,
-    "Win %": "51.22%",
-    "Role %": "94.75%",
-    "Pick %": "2.33%",
-    "Ban %": "3.87%",
+    "WinPercentage": "51.22%",
+    "RolePercentage": "94.75%",
+    "PickPercentage": "2.33%",
+    "BanPercentage": "3.87%",
     "KDA": 2.83
   },
   {
@@ -1839,10 +1839,10 @@
     "Tier": "B",
     "Score": 45.15,
     "Trend": 0.02,
-    "Win %": "51.12%",
-    "Role %": "96.42%",
-    "Pick %": "2.94%",
-    "Ban %": "3.84%",
+    "WinPercentage": "51.12%",
+    "RolePercentage": "96.42%",
+    "PickPercentage": "2.94%",
+    "BanPercentage": "3.84%",
     "KDA": 2.51
   },
   {
@@ -1852,10 +1852,10 @@
     "Tier": "B",
     "Score": 41.71,
     "Trend": 0.16,
-    "Win %": "50.04%",
-    "Role %": "97.89%",
-    "Pick %": "1.78%",
-    "Ban %": "0.30%",
+    "WinPercentage": "50.04%",
+    "RolePercentage": "97.89%",
+    "PickPercentage": "1.78%",
+    "BanPercentage": "0.30%",
     "KDA": 2.39
   },
   {
@@ -1865,10 +1865,10 @@
     "Tier": "S",
     "Score": 65.3,
     "Trend": -5.69,
-    "Win %": "52.64%",
-    "Role %": "99.00%",
-    "Pick %": "6.70%",
-    "Ban %": "7.36%",
+    "WinPercentage": "52.64%",
+    "RolePercentage": "99.00%",
+    "PickPercentage": "6.70%",
+    "BanPercentage": "7.36%",
     "KDA": 2.83
   },
   {
@@ -1878,10 +1878,10 @@
     "Tier": "A",
     "Score": 53.41,
     "Trend": 13.46,
-    "Win %": "49.22%",
-    "Role %": "84.14%",
-    "Pick %": "4.18%",
-    "Ban %": "2.45%",
+    "WinPercentage": "49.22%",
+    "RolePercentage": "84.14%",
+    "PickPercentage": "4.18%",
+    "BanPercentage": "2.45%",
     "KDA": 1.85
   },
   {
@@ -1891,10 +1891,10 @@
     "Tier": "B",
     "Score": 42.19,
     "Trend": 6.18,
-    "Win %": "51.47%",
-    "Role %": "14.06%",
-    "Pick %": "0.64%",
-    "Ban %": "2.45%",
+    "WinPercentage": "51.47%",
+    "RolePercentage": "14.06%",
+    "PickPercentage": "0.64%",
+    "BanPercentage": "2.45%",
     "KDA": 2.09
   },
   {
@@ -1904,10 +1904,10 @@
     "Tier": "S",
     "Score": 60,
     "Trend": -8.89,
-    "Win %": "51.45%",
-    "Role %": "74.21%",
-    "Pick %": "5.28%",
-    "Ban %": "19.30%",
+    "WinPercentage": "51.45%",
+    "RolePercentage": "74.21%",
+    "PickPercentage": "5.28%",
+    "BanPercentage": "19.30%",
     "KDA": 2.3
   },
   {
@@ -1917,10 +1917,10 @@
     "Tier": "B",
     "Score": 41.36,
     "Trend": 2.34,
-    "Win %": "49.84%",
-    "Role %": "21.77%",
-    "Pick %": "1.62%",
-    "Ban %": "19.30%",
+    "WinPercentage": "49.84%",
+    "RolePercentage": "21.77%",
+    "PickPercentage": "1.62%",
+    "BanPercentage": "19.30%",
     "KDA": 1.82
   },
   {
@@ -1930,10 +1930,10 @@
     "Tier": "S",
     "Score": 68.41,
     "Trend": -4.61,
-    "Win %": "50.96%",
-    "Role %": "89.76%",
-    "Pick %": "5.75%",
-    "Ban %": "4.92%",
+    "WinPercentage": "50.96%",
+    "RolePercentage": "89.76%",
+    "PickPercentage": "5.75%",
+    "BanPercentage": "4.92%",
     "KDA": 1.86
   },
   {
@@ -1943,10 +1943,10 @@
     "Tier": "A",
     "Score": 47.62,
     "Trend": -0.62,
-    "Win %": "52.90%",
-    "Role %": "27.49%",
-    "Pick %": "0.77%",
-    "Ban %": "0.49%",
+    "WinPercentage": "52.90%",
+    "RolePercentage": "27.49%",
+    "PickPercentage": "0.77%",
+    "BanPercentage": "0.49%",
     "KDA": 2.55
   },
   {
@@ -1956,10 +1956,10 @@
     "Tier": "C",
     "Score": 34.76,
     "Trend": 0.68,
-    "Win %": "47.94%",
-    "Role %": "56.31%",
-    "Pick %": "1.44%",
-    "Ban %": "0.49%",
+    "WinPercentage": "47.94%",
+    "RolePercentage": "56.31%",
+    "PickPercentage": "1.44%",
+    "BanPercentage": "0.49%",
     "KDA": 2.03
   },
   {
@@ -1969,10 +1969,10 @@
     "Tier": "D",
     "Score": 20.57,
     "Trend": 3.54,
-    "Win %": "45.60%",
-    "Role %": "10.43%",
-    "Pick %": "0.25%",
-    "Ban %": "0.41%",
+    "WinPercentage": "45.60%",
+    "RolePercentage": "10.43%",
+    "PickPercentage": "0.25%",
+    "BanPercentage": "0.41%",
     "KDA": 2.66
   },
   {
@@ -1982,10 +1982,10 @@
     "Tier": "D",
     "Score": 26.98,
     "Trend": -2.99,
-    "Win %": "42.48%",
-    "Role %": "80.20%",
-    "Pick %": "1.34%",
-    "Ban %": "0.13%",
+    "WinPercentage": "42.48%",
+    "RolePercentage": "80.20%",
+    "PickPercentage": "1.34%",
+    "BanPercentage": "0.13%",
     "KDA": 1.89
   },
   {
@@ -1995,10 +1995,10 @@
     "Tier": "D",
     "Score": 14.47,
     "Trend": 4.29,
-    "Win %": "43.82%",
-    "Role %": "16.52%",
-    "Pick %": "0.28%",
-    "Ban %": "0.14%",
+    "WinPercentage": "43.82%",
+    "RolePercentage": "16.52%",
+    "PickPercentage": "0.28%",
+    "BanPercentage": "0.14%",
     "KDA": 1.59
   },
   {
@@ -2008,10 +2008,10 @@
     "Tier": "God",
     "Score": 73.6,
     "Trend": 0.15,
-    "Win %": "51.89%",
-    "Role %": "96.81%",
-    "Pick %": "12.43%",
-    "Ban %": "24.37%",
+    "WinPercentage": "51.89%",
+    "RolePercentage": "96.81%",
+    "PickPercentage": "12.43%",
+    "BanPercentage": "24.37%",
     "KDA": 2.25
   },
   {
@@ -2021,10 +2021,10 @@
     "Tier": "A",
     "Score": 47.77,
     "Trend": -1.47,
-    "Win %": "52.12%",
-    "Role %": "71.27%",
-    "Pick %": "2.09%",
-    "Ban %": "0.31%",
+    "WinPercentage": "52.12%",
+    "RolePercentage": "71.27%",
+    "PickPercentage": "2.09%",
+    "BanPercentage": "0.31%",
     "KDA": 3.21
   },
   {
@@ -2034,10 +2034,10 @@
     "Tier": "D",
     "Score": 30.54,
     "Trend": -3.87,
-    "Win %": "48.00%",
-    "Role %": "21.07%",
-    "Pick %": "0.55%",
-    "Ban %": "0.31%",
+    "WinPercentage": "48.00%",
+    "RolePercentage": "21.07%",
+    "PickPercentage": "0.55%",
+    "BanPercentage": "0.31%",
     "KDA": 2.16
   },
   {
@@ -2047,10 +2047,10 @@
     "Tier": "God",
     "Score": 89.39,
     "Trend": -4,
-    "Win %": "53.05%",
-    "Role %": "92.25%",
-    "Pick %": "13.70%",
-    "Ban %": "9.54%",
+    "WinPercentage": "53.05%",
+    "RolePercentage": "92.25%",
+    "PickPercentage": "13.70%",
+    "BanPercentage": "9.54%",
     "KDA": 2.67
   },
   {
@@ -2060,10 +2060,10 @@
     "Tier": "B",
     "Score": 43.99,
     "Trend": 2.08,
-    "Win %": "49.03%",
-    "Role %": "69.37%",
-    "Pick %": "3.12%",
-    "Ban %": "0.74%",
+    "WinPercentage": "49.03%",
+    "RolePercentage": "69.37%",
+    "PickPercentage": "3.12%",
+    "BanPercentage": "0.74%",
     "KDA": 2.41
   },
   {
@@ -2073,10 +2073,10 @@
     "Tier": "B",
     "Score": 42.7,
     "Trend": 8.06,
-    "Win %": "53.93%",
-    "Role %": "14.86%",
-    "Pick %": "0.58%",
-    "Ban %": "0.77%",
+    "WinPercentage": "53.93%",
+    "RolePercentage": "14.86%",
+    "PickPercentage": "0.58%",
+    "BanPercentage": "0.77%",
     "KDA": 2.84
   },
   {
@@ -2086,10 +2086,10 @@
     "Tier": "B",
     "Score": 41.17,
     "Trend": -1.63,
-    "Win %": "49.72%",
-    "Role %": "13.70%",
-    "Pick %": "0.57%",
-    "Ban %": "0.77%",
+    "WinPercentage": "49.72%",
+    "RolePercentage": "13.70%",
+    "PickPercentage": "0.57%",
+    "BanPercentage": "0.77%",
     "KDA": 2.55
   },
   {
@@ -2099,10 +2099,10 @@
     "Tier": "S",
     "Score": 70.08,
     "Trend": -5.32,
-    "Win %": "50.14%",
-    "Role %": "76.86%",
-    "Pick %": "6.44%",
-    "Ban %": "5.81%",
+    "WinPercentage": "50.14%",
+    "RolePercentage": "76.86%",
+    "PickPercentage": "6.44%",
+    "BanPercentage": "5.81%",
     "KDA": 1.69
   },
   {
@@ -2112,10 +2112,10 @@
     "Tier": "C",
     "Score": 35.69,
     "Trend": 6.78,
-    "Win %": "49.17%",
-    "Role %": "12.77%",
-    "Pick %": "0.83%",
-    "Ban %": "5.81%",
+    "WinPercentage": "49.17%",
+    "RolePercentage": "12.77%",
+    "PickPercentage": "0.83%",
+    "BanPercentage": "5.81%",
     "KDA": 2.02
   },
   {
@@ -2125,10 +2125,10 @@
     "Tier": "A",
     "Score": 57.87,
     "Trend": -7.56,
-    "Win %": "49.98%",
-    "Role %": "82.20%",
-    "Pick %": "5.19%",
-    "Ban %": "16.65%",
+    "WinPercentage": "49.98%",
+    "RolePercentage": "82.20%",
+    "PickPercentage": "5.19%",
+    "BanPercentage": "16.65%",
     "KDA": 2.72
   },
   {
@@ -2138,10 +2138,10 @@
     "Tier": "C",
     "Score": 36.48,
     "Trend": -0.49,
-    "Win %": "48.26%",
-    "Role %": "14.88%",
-    "Pick %": "1.02%",
-    "Ban %": "18.71%",
+    "WinPercentage": "48.26%",
+    "RolePercentage": "14.88%",
+    "PickPercentage": "1.02%",
+    "BanPercentage": "18.71%",
     "KDA": 2.33
   },
   {
@@ -2151,10 +2151,10 @@
     "Tier": "S",
     "Score": 67.33,
     "Trend": 2.85,
-    "Win %": "53.06%",
-    "Role %": "83.92%",
-    "Pick %": "3.74%",
-    "Ban %": "0.82%",
+    "WinPercentage": "53.06%",
+    "RolePercentage": "83.92%",
+    "PickPercentage": "3.74%",
+    "BanPercentage": "0.82%",
     "KDA": 2.86
   },
   {
@@ -2164,10 +2164,10 @@
     "Tier": "C",
     "Score": 36.73,
     "Trend": 4.02,
-    "Win %": "48.77%",
-    "Role %": "11.93%",
-    "Pick %": "0.47%",
-    "Ban %": "0.81%",
+    "WinPercentage": "48.77%",
+    "RolePercentage": "11.93%",
+    "PickPercentage": "0.47%",
+    "BanPercentage": "0.81%",
     "KDA": 2.72
   },
   {
@@ -2177,10 +2177,10 @@
     "Tier": "A",
     "Score": 50.26,
     "Trend": -0.38,
-    "Win %": "52.43%",
-    "Role %": "88.18%",
-    "Pick %": "3.20%",
-    "Ban %": "1.33%",
+    "WinPercentage": "52.43%",
+    "RolePercentage": "88.18%",
+    "PickPercentage": "3.20%",
+    "BanPercentage": "1.33%",
     "KDA": 2.71
   },
   {
@@ -2190,10 +2190,10 @@
     "Tier": "C",
     "Score": 34.92,
     "Trend": 0,
-    "Win %": "50.79%",
-    "Role %": "10.07%",
-    "Pick %": "0.37%",
-    "Ban %": "1.46%",
+    "WinPercentage": "50.79%",
+    "RolePercentage": "10.07%",
+    "PickPercentage": "0.37%",
+    "BanPercentage": "1.46%",
     "KDA": 1.99
   },
   {
@@ -2203,10 +2203,10 @@
     "Tier": "A",
     "Score": 48.04,
     "Trend": -2.65,
-    "Win %": "53.68%",
-    "Role %": "15.26%",
-    "Pick %": "0.35%",
-    "Ban %": "0.42%",
+    "WinPercentage": "53.68%",
+    "RolePercentage": "15.26%",
+    "PickPercentage": "0.35%",
+    "BanPercentage": "0.42%",
     "KDA": 2.63
   },
   {
@@ -2216,10 +2216,10 @@
     "Tier": "B",
     "Score": 44.46,
     "Trend": 2.42,
-    "Win %": "51.55%",
-    "Role %": "72.94%",
-    "Pick %": "1.77%",
-    "Ban %": "0.48%",
+    "WinPercentage": "51.55%",
+    "RolePercentage": "72.94%",
+    "PickPercentage": "1.77%",
+    "BanPercentage": "0.48%",
     "KDA": 1.91
   },
   {
@@ -2229,10 +2229,10 @@
     "Tier": "A",
     "Score": 52.96,
     "Trend": -16.92,
-    "Win %": "49.61%",
-    "Role %": "80.76%",
-    "Pick %": "4.46%",
-    "Ban %": "3.12%",
+    "WinPercentage": "49.61%",
+    "RolePercentage": "80.76%",
+    "PickPercentage": "4.46%",
+    "BanPercentage": "3.12%",
     "KDA": 1.41
   },
   {
@@ -2242,10 +2242,10 @@
     "Tier": "B",
     "Score": 40.29,
     "Trend": -5.2,
-    "Win %": "50.54%",
-    "Role %": "95.01%",
-    "Pick %": "3.54%",
-    "Ban %": "0.81%",
+    "WinPercentage": "50.54%",
+    "RolePercentage": "95.01%",
+    "PickPercentage": "3.54%",
+    "BanPercentage": "0.81%",
     "KDA": 2.39
   },
   {
@@ -2255,10 +2255,10 @@
     "Tier": "C",
     "Score": 38.5,
     "Trend": 6.27,
-    "Win %": "51.92%",
-    "Role %": "23.92%",
-    "Pick %": "0.18%",
-    "Ban %": "0.14%",
+    "WinPercentage": "51.92%",
+    "RolePercentage": "23.92%",
+    "PickPercentage": "0.18%",
+    "BanPercentage": "0.14%",
     "KDA": 2.26
   },
   {
@@ -2268,10 +2268,10 @@
     "Tier": "C",
     "Score": 36.74,
     "Trend": 1.11,
-    "Win %": "51.44%",
-    "Role %": "72.65%",
-    "Pick %": "0.58%",
-    "Ban %": "0.14%",
+    "WinPercentage": "51.44%",
+    "RolePercentage": "72.65%",
+    "PickPercentage": "0.58%",
+    "BanPercentage": "0.14%",
     "KDA": 2.76
   },
   {
@@ -2281,10 +2281,10 @@
     "Tier": "A",
     "Score": 55.7,
     "Trend": 3.97,
-    "Win %": "53.46%",
-    "Role %": "97.26%",
-    "Pick %": "3.54%",
-    "Ban %": "0.44%",
+    "WinPercentage": "53.46%",
+    "RolePercentage": "97.26%",
+    "PickPercentage": "3.54%",
+    "BanPercentage": "0.44%",
     "KDA": 2.86
   },
   {
@@ -2294,10 +2294,10 @@
     "Tier": "S",
     "Score": 63.52,
     "Trend": -1.3,
-    "Win %": "52.08%",
-    "Role %": "93.97%",
-    "Pick %": "6.77%",
-    "Ban %": "5.81%",
+    "WinPercentage": "52.08%",
+    "RolePercentage": "93.97%",
+    "PickPercentage": "6.77%",
+    "BanPercentage": "5.81%",
     "KDA": 2.72
   },
   {
@@ -2307,10 +2307,10 @@
     "Tier": "A",
     "Score": 51.43,
     "Trend": 6.69,
-    "Win %": "56.79%",
-    "Role %": "17.12%",
-    "Pick %": "1.49%",
-    "Ban %": "6.46%",
+    "WinPercentage": "56.79%",
+    "RolePercentage": "17.12%",
+    "PickPercentage": "1.49%",
+    "BanPercentage": "6.46%",
     "KDA": 2.93
   },
   {
@@ -2320,10 +2320,10 @@
     "Tier": "A",
     "Score": 51.21,
     "Trend": -5.18,
-    "Win %": "52.21%",
-    "Role %": "22.86%",
-    "Pick %": "2.28%",
-    "Ban %": "6.46%",
+    "WinPercentage": "52.21%",
+    "RolePercentage": "22.86%",
+    "PickPercentage": "2.28%",
+    "BanPercentage": "6.46%",
     "KDA": 2.45
   },
   {
@@ -2333,10 +2333,10 @@
     "Tier": "A",
     "Score": 51.12,
     "Trend": -0.09,
-    "Win %": "50.76%",
-    "Role %": "39.71%",
-    "Pick %": "4.16%",
-    "Ban %": "6.46%",
+    "WinPercentage": "50.76%",
+    "RolePercentage": "39.71%",
+    "PickPercentage": "4.16%",
+    "BanPercentage": "6.46%",
     "KDA": 2.36
   },
   {
@@ -2346,10 +2346,10 @@
     "Tier": "B",
     "Score": 46.84,
     "Trend": -3.96,
-    "Win %": "51.19%",
-    "Role %": "20.23%",
-    "Pick %": "1.89%",
-    "Ban %": "6.46%",
+    "WinPercentage": "51.19%",
+    "RolePercentage": "20.23%",
+    "PickPercentage": "1.89%",
+    "BanPercentage": "6.46%",
     "KDA": 2.14
   },
   {
@@ -2359,10 +2359,10 @@
     "Tier": "S",
     "Score": 63.44,
     "Trend": 1.21,
-    "Win %": "50.00%",
-    "Role %": "82.52%",
-    "Pick %": "7.63%",
-    "Ban %": "4.43%",
+    "WinPercentage": "50.00%",
+    "RolePercentage": "82.52%",
+    "PickPercentage": "7.63%",
+    "BanPercentage": "4.43%",
     "KDA": 2.12
   },
   {
@@ -2372,10 +2372,10 @@
     "Tier": "D",
     "Score": 33.4,
     "Trend": 0.49,
-    "Win %": "48.93%",
-    "Role %": "11.71%",
-    "Pick %": "1.05%",
-    "Ban %": "4.42%",
+    "WinPercentage": "48.93%",
+    "RolePercentage": "11.71%",
+    "PickPercentage": "1.05%",
+    "BanPercentage": "4.42%",
     "KDA": 1.82
   },
   {
@@ -2385,10 +2385,10 @@
     "Tier": "B",
     "Score": 42.78,
     "Trend": 0.88,
-    "Win %": "48.08%",
-    "Role %": "85.43%",
-    "Pick %": "2.68%",
-    "Ban %": "0.89%",
+    "WinPercentage": "48.08%",
+    "RolePercentage": "85.43%",
+    "PickPercentage": "2.68%",
+    "BanPercentage": "0.89%",
     "KDA": 2.11
   },
   {
@@ -2398,10 +2398,10 @@
     "Tier": "A",
     "Score": 51.4,
     "Trend": 2.15,
-    "Win %": "57.71%",
-    "Role %": "20.88%",
-    "Pick %": "0.67%",
-    "Ban %": "1.97%",
+    "WinPercentage": "57.71%",
+    "RolePercentage": "20.88%",
+    "PickPercentage": "0.67%",
+    "BanPercentage": "1.97%",
     "KDA": 2.98
   },
   {
@@ -2411,10 +2411,10 @@
     "Tier": "B",
     "Score": 47.27,
     "Trend": 7.1,
-    "Win %": "50.60%",
-    "Role %": "48.83%",
-    "Pick %": "1.93%",
-    "Ban %": "1.97%",
+    "WinPercentage": "50.60%",
+    "RolePercentage": "48.83%",
+    "PickPercentage": "1.93%",
+    "BanPercentage": "1.97%",
     "KDA": 2.42
   },
   {
@@ -2424,10 +2424,10 @@
     "Tier": "D",
     "Score": 32.79,
     "Trend": 1.29,
-    "Win %": "46.63%",
-    "Role %": "27.97%",
-    "Pick %": "1.03%",
-    "Ban %": "1.97%",
+    "WinPercentage": "46.63%",
+    "RolePercentage": "27.97%",
+    "PickPercentage": "1.03%",
+    "BanPercentage": "1.97%",
     "KDA": 2.35
   },
   {
@@ -2437,10 +2437,10 @@
     "Tier": "S",
     "Score": 71.94,
     "Trend": 33.01,
-    "Win %": "53.42%",
-    "Role %": "48.41%",
-    "Pick %": "7.17%",
-    "Ban %": "12.54%",
+    "WinPercentage": "53.42%",
+    "RolePercentage": "48.41%",
+    "PickPercentage": "7.17%",
+    "BanPercentage": "12.54%",
     "KDA": 2.21
   },
   {
@@ -2450,10 +2450,10 @@
     "Tier": "A",
     "Score": 54.83,
     "Trend": 36.02,
-    "Win %": "49.48%",
-    "Role %": "37.58%",
-    "Pick %": "5.34%",
-    "Ban %": "12.54%",
+    "WinPercentage": "49.48%",
+    "RolePercentage": "37.58%",
+    "PickPercentage": "5.34%",
+    "BanPercentage": "12.54%",
     "KDA": 2.42
   },
   {
@@ -2463,10 +2463,10 @@
     "Tier": "A",
     "Score": 50.76,
     "Trend": -1.37,
-    "Win %": "50.12%",
-    "Role %": "54.72%",
-    "Pick %": "4.68%",
-    "Ban %": "5.79%",
+    "WinPercentage": "50.12%",
+    "RolePercentage": "54.72%",
+    "PickPercentage": "4.68%",
+    "BanPercentage": "5.79%",
     "KDA": 2.46
   },
   {
@@ -2476,10 +2476,10 @@
     "Tier": "A",
     "Score": 50.28,
     "Trend": 4.43,
-    "Win %": "50.35%",
-    "Role %": "43.00%",
-    "Pick %": "3.52%",
-    "Ban %": "5.79%",
+    "WinPercentage": "50.35%",
+    "RolePercentage": "43.00%",
+    "PickPercentage": "3.52%",
+    "BanPercentage": "5.79%",
     "KDA": 2.11
   },
   {
@@ -2489,10 +2489,10 @@
     "Tier": "B",
     "Score": 43.87,
     "Trend": 4.33,
-    "Win %": "51.45%",
-    "Role %": "87.48%",
-    "Pick %": "1.03%",
-    "Ban %": "0.13%",
+    "WinPercentage": "51.45%",
+    "RolePercentage": "87.48%",
+    "PickPercentage": "1.03%",
+    "BanPercentage": "0.13%",
     "KDA": 2.8
   },
   {
@@ -2502,10 +2502,10 @@
     "Tier": "S",
     "Score": 62.4,
     "Trend": -0.93,
-    "Win %": "51.08%",
-    "Role %": "76.86%",
-    "Pick %": "4.66%",
-    "Ban %": "7.88%",
+    "WinPercentage": "51.08%",
+    "RolePercentage": "76.86%",
+    "PickPercentage": "4.66%",
+    "BanPercentage": "7.88%",
     "KDA": 1.71
   },
   {
@@ -2515,10 +2515,10 @@
     "Tier": "S",
     "Score": 60.31,
     "Trend": 7.92,
-    "Win %": "48.64%",
-    "Role %": "97.90%",
-    "Pick %": "8.27%",
-    "Ban %": "2.34%",
+    "WinPercentage": "48.64%",
+    "RolePercentage": "97.90%",
+    "PickPercentage": "8.27%",
+    "BanPercentage": "2.34%",
     "KDA": 2.61
   },
   {
@@ -2528,10 +2528,10 @@
     "Tier": "A",
     "Score": 53.67,
     "Trend": -2.45,
-    "Win %": "51.81%",
-    "Role %": "85.69%",
-    "Pick %": "7.97%",
-    "Ban %": "3.96%",
+    "WinPercentage": "51.81%",
+    "RolePercentage": "85.69%",
+    "PickPercentage": "7.97%",
+    "BanPercentage": "3.96%",
     "KDA": 2.27
   },
   {
@@ -2541,10 +2541,10 @@
     "Tier": "B",
     "Score": 41.31,
     "Trend": -2.87,
-    "Win %": "50.63%",
-    "Role %": "11.91%",
-    "Pick %": "0.89%",
-    "Ban %": "3.96%",
+    "WinPercentage": "50.63%",
+    "RolePercentage": "11.91%",
+    "PickPercentage": "0.89%",
+    "BanPercentage": "3.96%",
     "KDA": 2.05
   },
   {
@@ -2554,10 +2554,10 @@
     "Tier": "B",
     "Score": 43.19,
     "Trend": -2.67,
-    "Win %": "51.41%",
-    "Role %": "64.82%",
-    "Pick %": "2.29%",
-    "Ban %": "1.99%",
+    "WinPercentage": "51.41%",
+    "RolePercentage": "64.82%",
+    "PickPercentage": "2.29%",
+    "BanPercentage": "1.99%",
     "KDA": 2.59
   },
   {
@@ -2567,10 +2567,10 @@
     "Tier": "C",
     "Score": 36.71,
     "Trend": 2.76,
-    "Win %": "51.05%",
-    "Role %": "29.85%",
-    "Pick %": "1.04%",
-    "Ban %": "2.13%",
+    "WinPercentage": "51.05%",
+    "RolePercentage": "29.85%",
+    "PickPercentage": "1.04%",
+    "BanPercentage": "2.13%",
     "KDA": 1.61
   },
   {
@@ -2580,10 +2580,10 @@
     "Tier": "A",
     "Score": 49.97,
     "Trend": -2.46,
-    "Win %": "49.25%",
-    "Role %": "83.29%",
-    "Pick %": "3.45%",
-    "Ban %": "10.10%",
+    "WinPercentage": "49.25%",
+    "RolePercentage": "83.29%",
+    "PickPercentage": "3.45%",
+    "BanPercentage": "10.10%",
     "KDA": 1.74
   },
   {
@@ -2593,10 +2593,10 @@
     "Tier": "B",
     "Score": 41.12,
     "Trend": 1.45,
-    "Win %": "47.00%",
-    "Role %": "90.59%",
-    "Pick %": "2.86%",
-    "Ban %": "0.20%",
+    "WinPercentage": "47.00%",
+    "RolePercentage": "90.59%",
+    "PickPercentage": "2.86%",
+    "BanPercentage": "0.20%",
     "KDA": 2.08
   },
   {
@@ -2606,10 +2606,10 @@
     "Tier": "A",
     "Score": 51.34,
     "Trend": 1.17,
-    "Win %": "52.62%",
-    "Role %": "78.04%",
-    "Pick %": "6.10%",
-    "Ban %": "4.79%",
+    "WinPercentage": "52.62%",
+    "RolePercentage": "78.04%",
+    "PickPercentage": "6.10%",
+    "BanPercentage": "4.79%",
     "KDA": 2.39
   },
   {
@@ -2619,10 +2619,10 @@
     "Tier": "C",
     "Score": 37.42,
     "Trend": 2.66,
-    "Win %": "50.50%",
-    "Role %": "91.62%",
-    "Pick %": "1.58%",
-    "Ban %": "0.51%",
+    "WinPercentage": "50.50%",
+    "RolePercentage": "91.62%",
+    "PickPercentage": "1.58%",
+    "BanPercentage": "0.51%",
     "KDA": 2.54
   },
   {
@@ -2632,10 +2632,10 @@
     "Tier": "A",
     "Score": 52.93,
     "Trend": 2.32,
-    "Win %": "51.79%",
-    "Role %": "92.47%",
-    "Pick %": "3.07%",
-    "Ban %": "1.77%",
+    "WinPercentage": "51.79%",
+    "RolePercentage": "92.47%",
+    "PickPercentage": "3.07%",
+    "BanPercentage": "1.77%",
     "KDA": 1.88
   },
   {
@@ -2645,10 +2645,10 @@
     "Tier": "D",
     "Score": 29.5,
     "Trend": -1.11,
-    "Win %": "46.14%",
-    "Role %": "89.53%",
-    "Pick %": "3.27%",
-    "Ban %": "0.28%",
+    "WinPercentage": "46.14%",
+    "RolePercentage": "89.53%",
+    "PickPercentage": "3.27%",
+    "BanPercentage": "0.28%",
     "KDA": 2.2
   },
   {
@@ -2658,10 +2658,10 @@
     "Tier": "A",
     "Score": 54.81,
     "Trend": -7.77,
-    "Win %": "50.19%",
-    "Role %": "81.23%",
-    "Pick %": "9.10%",
-    "Ban %": "14.31%",
+    "WinPercentage": "50.19%",
+    "RolePercentage": "81.23%",
+    "PickPercentage": "9.10%",
+    "BanPercentage": "14.31%",
     "KDA": 2.07
   },
   {
@@ -2671,10 +2671,10 @@
     "Tier": "C",
     "Score": 39.07,
     "Trend": -0.63,
-    "Win %": "49.80%",
-    "Role %": "16.44%",
-    "Pick %": "1.76%",
-    "Ban %": "14.31%",
+    "WinPercentage": "49.80%",
+    "RolePercentage": "16.44%",
+    "PickPercentage": "1.76%",
+    "BanPercentage": "14.31%",
     "KDA": 1.53
   },
   {
@@ -2684,10 +2684,10 @@
     "Tier": "S",
     "Score": 62.18,
     "Trend": -4.18,
-    "Win %": "51.13%",
-    "Role %": "72.32%",
-    "Pick %": "6.25%",
-    "Ban %": "7.64%",
+    "WinPercentage": "51.13%",
+    "RolePercentage": "72.32%",
+    "PickPercentage": "6.25%",
+    "BanPercentage": "7.64%",
     "KDA": 2.23
   },
   {
@@ -2697,10 +2697,10 @@
     "Tier": "B",
     "Score": 41,
     "Trend": 0.22,
-    "Win %": "53.24%",
-    "Role %": "17.34%",
-    "Pick %": "1.57%",
-    "Ban %": "7.64%",
+    "WinPercentage": "53.24%",
+    "RolePercentage": "17.34%",
+    "PickPercentage": "1.57%",
+    "BanPercentage": "7.64%",
     "KDA": 2.38
   },
   {
@@ -2710,10 +2710,10 @@
     "Tier": "B",
     "Score": 42.11,
     "Trend": 0.75,
-    "Win %": "50.88%",
-    "Role %": "58.21%",
-    "Pick %": "1.72%",
-    "Ban %": "0.45%",
+    "WinPercentage": "50.88%",
+    "RolePercentage": "58.21%",
+    "PickPercentage": "1.72%",
+    "BanPercentage": "0.45%",
     "KDA": 2.15
   },
   {
@@ -2723,10 +2723,10 @@
     "Tier": "B",
     "Score": 41.26,
     "Trend": -4.81,
-    "Win %": "49.11%",
-    "Role %": "36.89%",
-    "Pick %": "1.14%",
-    "Ban %": "0.48%",
+    "WinPercentage": "49.11%",
+    "RolePercentage": "36.89%",
+    "PickPercentage": "1.14%",
+    "BanPercentage": "0.48%",
     "KDA": 2.43
   },
   {
@@ -2736,10 +2736,10 @@
     "Tier": "S",
     "Score": 59.22,
     "Trend": -0.26,
-    "Win %": "50.57%",
-    "Role %": "91.82%",
-    "Pick %": "5.46%",
-    "Ban %": "9.25%",
+    "WinPercentage": "50.57%",
+    "RolePercentage": "91.82%",
+    "PickPercentage": "5.46%",
+    "BanPercentage": "9.25%",
     "KDA": 2.33
   },
   {
@@ -2749,10 +2749,10 @@
     "Tier": "B",
     "Score": 46.53,
     "Trend": -5.23,
-    "Win %": "50.22%",
-    "Role %": "92.70%",
-    "Pick %": "4.18%",
-    "Ban %": "1.75%",
+    "WinPercentage": "50.22%",
+    "RolePercentage": "92.70%",
+    "PickPercentage": "4.18%",
+    "BanPercentage": "1.75%",
     "KDA": 2.27
   },
   {
@@ -2762,10 +2762,10 @@
     "Tier": "God",
     "Score": 91.79,
     "Trend": 2.09,
-    "Win %": "49.37%",
-    "Role %": "93.44%",
-    "Pick %": "13.57%",
-    "Ban %": "10.17%",
+    "WinPercentage": "49.37%",
+    "RolePercentage": "93.44%",
+    "PickPercentage": "13.57%",
+    "BanPercentage": "10.17%",
     "KDA": 2.36
   },
   {
@@ -2775,10 +2775,10 @@
     "Tier": "A",
     "Score": 54.31,
     "Trend": -2.13,
-    "Win %": "49.93%",
-    "Role %": "91.21%",
-    "Pick %": "5.00%",
-    "Ban %": "2.67%",
+    "WinPercentage": "49.93%",
+    "RolePercentage": "91.21%",
+    "PickPercentage": "5.00%",
+    "BanPercentage": "2.67%",
     "KDA": 2.16
   },
   {
@@ -2788,10 +2788,10 @@
     "Tier": "A",
     "Score": 55.05,
     "Trend": -1.38,
-    "Win %": "50.15%",
-    "Role %": "68.81%",
-    "Pick %": "4.65%",
-    "Ban %": "7.55%",
+    "WinPercentage": "50.15%",
+    "RolePercentage": "68.81%",
+    "PickPercentage": "4.65%",
+    "BanPercentage": "7.55%",
     "KDA": 2.28
   },
   {
@@ -2801,10 +2801,10 @@
     "Tier": "C",
     "Score": 38.02,
     "Trend": -0.3,
-    "Win %": "48.49%",
-    "Role %": "29.38%",
-    "Pick %": "1.75%",
-    "Ban %": "7.55%",
+    "WinPercentage": "48.49%",
+    "RolePercentage": "29.38%",
+    "PickPercentage": "1.75%",
+    "BanPercentage": "7.55%",
     "KDA": 1.93
   },
   {
@@ -2814,10 +2814,10 @@
     "Tier": "S",
     "Score": 62.68,
     "Trend": -5.7,
-    "Win %": "52.46%",
-    "Role %": "59.17%",
-    "Pick %": "5.65%",
-    "Ban %": "6.09%",
+    "WinPercentage": "52.46%",
+    "RolePercentage": "59.17%",
+    "PickPercentage": "5.65%",
+    "BanPercentage": "6.09%",
     "KDA": 2.76
   },
   {
@@ -2827,10 +2827,10 @@
     "Tier": "A",
     "Score": 50.81,
     "Trend": -2.8,
-    "Win %": "49.39%",
-    "Role %": "38.54%",
-    "Pick %": "3.76%",
-    "Ban %": "6.09%",
+    "WinPercentage": "49.39%",
+    "RolePercentage": "38.54%",
+    "PickPercentage": "3.76%",
+    "BanPercentage": "6.09%",
     "KDA": 1.66
   },
   {
@@ -2840,10 +2840,10 @@
     "Tier": "A",
     "Score": 51.57,
     "Trend": -2.07,
-    "Win %": "51.65%",
-    "Role %": "74.20%",
-    "Pick %": "4.45%",
-    "Ban %": "4.42%",
+    "WinPercentage": "51.65%",
+    "RolePercentage": "74.20%",
+    "PickPercentage": "4.45%",
+    "BanPercentage": "4.42%",
     "KDA": 2.17
   },
   {
@@ -2853,10 +2853,10 @@
     "Tier": "C",
     "Score": 38.58,
     "Trend": 3.87,
-    "Win %": "51.21%",
-    "Role %": "23.65%",
-    "Pick %": "1.01%",
-    "Ban %": "4.42%",
+    "WinPercentage": "51.21%",
+    "RolePercentage": "23.65%",
+    "PickPercentage": "1.01%",
+    "BanPercentage": "4.42%",
     "KDA": 1.8
   },
   {
@@ -2866,10 +2866,10 @@
     "Tier": "S",
     "Score": 67.41,
     "Trend": -0.98,
-    "Win %": "53.07%",
-    "Role %": "61.01%",
-    "Pick %": "6.15%",
-    "Ban %": "7.75%",
+    "WinPercentage": "53.07%",
+    "RolePercentage": "61.01%",
+    "PickPercentage": "6.15%",
+    "BanPercentage": "7.75%",
     "KDA": 2.8
   },
   {
@@ -2879,10 +2879,10 @@
     "Tier": "A",
     "Score": 56.43,
     "Trend": 0.23,
-    "Win %": "51.12%",
-    "Role %": "33.00%",
-    "Pick %": "3.44%",
-    "Ban %": "7.75%",
+    "WinPercentage": "51.12%",
+    "RolePercentage": "33.00%",
+    "PickPercentage": "3.44%",
+    "BanPercentage": "7.75%",
     "KDA": 2.06
   },
   {
@@ -2892,10 +2892,10 @@
     "Tier": "C",
     "Score": 38.66,
     "Trend": -6.38,
-    "Win %": "48.39%",
-    "Role %": "97.65%",
-    "Pick %": "5.06%",
-    "Ban %": "1.95%",
+    "WinPercentage": "48.39%",
+    "RolePercentage": "97.65%",
+    "PickPercentage": "5.06%",
+    "BanPercentage": "1.95%",
     "KDA": 2.2
   },
   {
@@ -2905,10 +2905,10 @@
     "Tier": "A",
     "Score": 55.61,
     "Trend": 2.66,
-    "Win %": "51.94%",
-    "Role %": "40.96%",
-    "Pick %": "2.96%",
-    "Ban %": "4.22%",
+    "WinPercentage": "51.94%",
+    "RolePercentage": "40.96%",
+    "PickPercentage": "2.96%",
+    "BanPercentage": "4.22%",
     "KDA": 2.98
   },
   {
@@ -2918,10 +2918,10 @@
     "Tier": "A",
     "Score": 54,
     "Trend": 1.69,
-    "Win %": "52.25%",
-    "Role %": "53.88%",
-    "Pick %": "3.99%",
-    "Ban %": "4.22%",
+    "WinPercentage": "52.25%",
+    "RolePercentage": "53.88%",
+    "PickPercentage": "3.99%",
+    "BanPercentage": "4.22%",
     "KDA": 2.57
   },
   {
@@ -2931,10 +2931,10 @@
     "Tier": "C",
     "Score": 37.21,
     "Trend": 3.7,
-    "Win %": "49.63%",
-    "Role %": "87.39%",
-    "Pick %": "2.45%",
-    "Ban %": "1.04%",
+    "WinPercentage": "49.63%",
+    "RolePercentage": "87.39%",
+    "PickPercentage": "2.45%",
+    "BanPercentage": "1.04%",
     "KDA": 2.23
   },
   {
@@ -2944,10 +2944,10 @@
     "Tier": "God",
     "Score": 87.8,
     "Trend": -1.66,
-    "Win %": "50.11%",
-    "Role %": "67.72%",
-    "Pick %": "11.72%",
-    "Ban %": "25.07%",
+    "WinPercentage": "50.11%",
+    "RolePercentage": "67.72%",
+    "PickPercentage": "11.72%",
+    "BanPercentage": "25.07%",
     "KDA": 1.73
   },
   {
@@ -2957,10 +2957,10 @@
     "Tier": "B",
     "Score": 44.99,
     "Trend": -4.12,
-    "Win %": "49.18%",
-    "Role %": "14.88%",
-    "Pick %": "2.46%",
-    "Ban %": "25.07%",
+    "WinPercentage": "49.18%",
+    "RolePercentage": "14.88%",
+    "PickPercentage": "2.46%",
+    "BanPercentage": "25.07%",
     "KDA": 1.47
   },
   {
@@ -2970,10 +2970,10 @@
     "Tier": "B",
     "Score": 43,
     "Trend": 0.67,
-    "Win %": "53.12%",
-    "Role %": "16.33%",
-    "Pick %": "2.67%",
-    "Ban %": "25.07%",
+    "WinPercentage": "53.12%",
+    "RolePercentage": "16.33%",
+    "PickPercentage": "2.67%",
+    "BanPercentage": "25.07%",
     "KDA": 2
   },
   {
@@ -2983,10 +2983,10 @@
     "Tier": "S",
     "Score": 66.11,
     "Trend": -0.55,
-    "Win %": "49.78%",
-    "Role %": "60.89%",
-    "Pick %": "7.94%",
-    "Ban %": "15.13%",
+    "WinPercentage": "49.78%",
+    "RolePercentage": "60.89%",
+    "PickPercentage": "7.94%",
+    "BanPercentage": "15.13%",
     "KDA": 1.81
   },
   {
@@ -2996,10 +2996,10 @@
     "Tier": "S",
     "Score": 58.22,
     "Trend": -2.22,
-    "Win %": "49.99%",
-    "Role %": "35.52%",
-    "Pick %": "4.34%",
-    "Ban %": "15.13%",
+    "WinPercentage": "49.99%",
+    "RolePercentage": "35.52%",
+    "PickPercentage": "4.34%",
+    "BanPercentage": "15.13%",
     "KDA": 1.58
   },
   {
@@ -3009,10 +3009,10 @@
     "Tier": "B",
     "Score": 47.06,
     "Trend": -6.62,
-    "Win %": "51.60%",
-    "Role %": "94.03%",
-    "Pick %": "2.60%",
-    "Ban %": "3.51%",
+    "WinPercentage": "51.60%",
+    "RolePercentage": "94.03%",
+    "PickPercentage": "2.60%",
+    "BanPercentage": "3.51%",
     "KDA": 1.49
   },
   {
@@ -3022,10 +3022,10 @@
     "Tier": "God",
     "Score": 94.97,
     "Trend": 1.86,
-    "Win %": "49.81%",
-    "Role %": "98.90%",
-    "Pick %": "12.27%",
-    "Ban %": "26.51%",
+    "WinPercentage": "49.81%",
+    "RolePercentage": "98.90%",
+    "PickPercentage": "12.27%",
+    "BanPercentage": "26.51%",
     "KDA": 4.05
   },
   {
@@ -3035,10 +3035,10 @@
     "Tier": "A",
     "Score": 54.47,
     "Trend": -4.02,
-    "Win %": "51.77%",
-    "Role %": "81.51%",
-    "Pick %": "3.44%",
-    "Ban %": "2.79%",
+    "WinPercentage": "51.77%",
+    "RolePercentage": "81.51%",
+    "PickPercentage": "3.44%",
+    "BanPercentage": "2.79%",
     "KDA": 3.42
   },
   {
@@ -3048,10 +3048,10 @@
     "Tier": "God",
     "Score": 80.84,
     "Trend": -0.19,
-    "Win %": "49.86%",
-    "Role %": "71.48%",
-    "Pick %": "8.42%",
-    "Ban %": "35.79%",
+    "WinPercentage": "49.86%",
+    "RolePercentage": "71.48%",
+    "PickPercentage": "8.42%",
+    "BanPercentage": "35.79%",
     "KDA": 2.19
   },
   {
@@ -3061,10 +3061,10 @@
     "Tier": "B",
     "Score": 42.29,
     "Trend": -3.44,
-    "Win %": "48.08%",
-    "Role %": "24.57%",
-    "Pick %": "2.71%",
-    "Ban %": "35.79%",
+    "WinPercentage": "48.08%",
+    "RolePercentage": "24.57%",
+    "PickPercentage": "2.71%",
+    "BanPercentage": "35.79%",
     "KDA": 2.45
   },
   {
@@ -3074,10 +3074,10 @@
     "Tier": "D",
     "Score": 29.14,
     "Trend": 0.01,
-    "Win %": "45.68%",
-    "Role %": "92.08%",
-    "Pick %": "3.70%",
-    "Ban %": "3.66%",
+    "WinPercentage": "45.68%",
+    "RolePercentage": "92.08%",
+    "PickPercentage": "3.70%",
+    "BanPercentage": "3.66%",
     "KDA": 2.07
   },
   {
@@ -3087,10 +3087,10 @@
     "Tier": "B",
     "Score": 40.5,
     "Trend": -2.28,
-    "Win %": "49.58%",
-    "Role %": "29.65%",
-    "Pick %": "0.85%",
-    "Ban %": "0.44%",
+    "WinPercentage": "49.58%",
+    "RolePercentage": "29.65%",
+    "PickPercentage": "0.85%",
+    "BanPercentage": "0.44%",
     "KDA": 2.3
   },
   {
@@ -3100,10 +3100,10 @@
     "Tier": "C",
     "Score": 34.08,
     "Trend": -4.45,
-    "Win %": "49.99%",
-    "Role %": "62.05%",
-    "Pick %": "1.66%",
-    "Ban %": "0.43%",
+    "WinPercentage": "49.99%",
+    "RolePercentage": "62.05%",
+    "PickPercentage": "1.66%",
+    "BanPercentage": "0.43%",
     "KDA": 2.33
   },
   {
@@ -3113,10 +3113,10 @@
     "Tier": "A",
     "Score": 53.09,
     "Trend": 4.02,
-    "Win %": "54.04%",
-    "Role %": "18.27%",
-    "Pick %": "0.61%",
-    "Ban %": "1.59%",
+    "WinPercentage": "54.04%",
+    "RolePercentage": "18.27%",
+    "PickPercentage": "0.61%",
+    "BanPercentage": "1.59%",
     "KDA": 3.29
   },
   {
@@ -3126,10 +3126,10 @@
     "Tier": "A",
     "Score": 49.49,
     "Trend": 3.8,
-    "Win %": "50.96%",
-    "Role %": "77.56%",
-    "Pick %": "2.69%",
-    "Ban %": "1.81%",
+    "WinPercentage": "50.96%",
+    "RolePercentage": "77.56%",
+    "PickPercentage": "2.69%",
+    "BanPercentage": "1.81%",
     "KDA": 3.11
   },
   {
@@ -3139,10 +3139,10 @@
     "Tier": "A",
     "Score": 55.13,
     "Trend": 5.52,
-    "Win %": "48.44%",
-    "Role %": "90.55%",
-    "Pick %": "5.81%",
-    "Ban %": "2.01%",
+    "WinPercentage": "48.44%",
+    "RolePercentage": "90.55%",
+    "PickPercentage": "5.81%",
+    "BanPercentage": "2.01%",
     "KDA": 2.34
   },
   {
@@ -3152,10 +3152,10 @@
     "Tier": "B",
     "Score": 46.65,
     "Trend": -2.51,
-    "Win %": "50.83%",
-    "Role %": "90.23%",
-    "Pick %": "3.20%",
-    "Ban %": "1.83%",
+    "WinPercentage": "50.83%",
+    "RolePercentage": "90.23%",
+    "PickPercentage": "3.20%",
+    "BanPercentage": "1.83%",
     "KDA": 2.13
   }
 ]

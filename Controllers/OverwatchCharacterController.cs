@@ -1,6 +1,6 @@
+using System.Net;
 using Microsoft.AspNetCore.Mvc;
-using INET410.Entity;
-using INET410.Request;
+using System.Text.Json;
 
 namespace INET410;
 
@@ -43,5 +43,4 @@ public class OverwatchCharacterController: ControllerBase
         );
         return Ok(results);
     }
-
 }
