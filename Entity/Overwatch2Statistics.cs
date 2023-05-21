@@ -6,13 +6,13 @@ namespace INET410.Entity;
 
 public class Overwatch2Statistics
 {
-
+   
     [JsonPropertyName("hero")]
     public String Hero{get; set;}
     
     [JsonPropertyName("skillTier")]
     public String SkillTier{get; set;}
-    
+
     [JsonPropertyName("kdaRatio")] 
     public Double KDARatio{get; set;}
     

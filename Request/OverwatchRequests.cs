@@ -5,7 +5,7 @@ namespace INET410.Request;
 public class OverwatchRequests
 {
     
-    private static string path = "Data/overwatchs2_character_stats.csv";
+    private static string path = "./Data/overwatchs2_character_stats.csv";
     
     private static IEnumerable<Overwatch2Statistics> GetList() => File.ReadAllLines(path)
         .Skip(1)
@@ -14,17 +14,17 @@ public class OverwatchRequests
     public static  List<Overwatch2Statistics> GetAll()=> GetList().ToList();
 
     public static List<Overwatch2Statistics> Search(
-        string? hero,
-        string? skillTier,
-        double? kdaRatio,
-        double? pickRatePercentage,
-        double? winRatePercentage,
-        double? eliminationsPer10min,
-        double? objectiveKillsPer10min,
-        int? objectiveTimePer10min,
-        int? damagePer10min,
-        int? healingPer10min,
-        double? deathsPer10min
+        string? hero = null,
+        string? skillTier = null,
+        double? kdaRatio = null,
+        double? pickRatePercentage = null,
+        double? winRatePercentage = null,
+        double? eliminationsPer10min = null,
+        double? objectiveKillsPer10min = null,
+        int? objectiveTimePer10min = null,
+        int? damagePer10min = null,
+        int? healingPer10min = null,
+        double? deathsPer10min = null
     )
     {
         return GetAll()
