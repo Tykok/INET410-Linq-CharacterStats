@@ -1,45 +1,147 @@
-using INET410.Entity;
+using System.Linq.Expressions;
+using INET410.Utils;
 
 namespace INET410.Request;
 
 public class OverwatchRequests
 {
-    
-    private static string path = "./Data/overwatchs2_character_stats.csv";
-    
-    private static IEnumerable<Overwatch2Statistics> GetList() => File.ReadAllLines(path)
-        .Skip(1)
-        .Select(Overwatch2Statistics.ParseRow);
-    
-    public static  List<Overwatch2Statistics> GetAll()=> GetList().ToList();
 
-    public static List<Overwatch2Statistics> Search(
-        string? hero = null,
-        string? skillTier = null,
-        double? kdaRatio = null,
-        double? pickRatePercentage = null,
-        double? winRatePercentage = null,
-        double? eliminationsPer10min = null,
-        double? objectiveKillsPer10min = null,
-        int? objectiveTimePer10min = null,
-        int? damagePer10min = null,
-        int? healingPer10min = null,
-        double? deathsPer10min = null
-    )
+    private readonly static string Path = "./Data/overwatchs2_character_stats.csv";
+
+    public static IEnumerable<Overwatch2Statistics> GetList()
     {
-        return GetAll()
-            .Where(h => hero == null || h.Hero == hero)
-            .Where(h => skillTier == null || h.SkillTier == skillTier)
-            .Where(h => kdaRatio == null || h.KDARatio >= kdaRatio)
-            .Where(h => pickRatePercentage == null || h.PickRatePercentage >= pickRatePercentage)
-            .Where(h => winRatePercentage == null || h.WinRatePercentage >= winRatePercentage)
-            .Where(h => eliminationsPer10min == null || h.EliminationsPer10min >= eliminationsPer10min)
-            .Where(h => objectiveKillsPer10min == null || h.ObjectiveKillsPer10min >= objectiveKillsPer10min)
-            .Where(h => objectiveTimePer10min == null || h.ObjectiveTimePer10min >= objectiveTimePer10min)
-            .Where(h => damagePer10min == null || h.DamagePer10min >= damagePer10min)
-            .Where(h => healingPer10min == null || h.HealingPer10min >= healingPer10min)
-            .Where(h => deathsPer10min == null || h.DeathsPer10min >= deathsPer10min)
+        return File.ReadAllLines(Path)
+            .Skip(1)
+            .Select(Overwatch2Statistics.ParseRow);
+    }
+
+    public static void CheckCondition(double? isHigherThan, double? isLowerThan)
+    {
+        if(isHigherThan.HasValue && isLowerThan.HasValue && isHigherThan > isLowerThan)
+            throw new Exception($"The higher value {isHigherThan} cannot be greater than the lower value {isLowerThan}.");
+    }
+
+    public static List<Overwatch2Statistics> GetAll()
+    {
+        return GetList().ToList();
+    }
+
+    public static void GetByHero(ref List<Overwatch2Statistics> listOfFilteredStats, string hero, bool isNot = false)
+    {
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isNot ? h.Hero != hero: h.Hero == hero)
             .ToList();
     }
 
+
+    public static void GetBySkillTier(ref List<Overwatch2Statistics> listOfFilteredStats, string skillTier, bool isNot = false)
+    {
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isNot ? h.SkillTier != skillTier: h.SkillTier == skillTier)
+            .ToList();
+    }
+
+    public static void GetByKdaRatio(
+        ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.KDARatio >= isHigherThan)
+            .Where(h => isLowerThan == null || h.KDARatio <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByObjectiveKillsPer10Min(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.ObjectiveKillsPer10Min >= isHigherThan)
+            .Where(h => isLowerThan == null || h.ObjectiveKillsPer10Min <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByPickRatePercentage(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.PickRatePercentage >= isHigherThan)
+            .Where(h => isLowerThan == null || h.PickRatePercentage <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByObjectiveTimePer10Min(ref List<Overwatch2Statistics> listOfFilteredStats, int? isHigherThan, int? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.ObjectiveTimePer10Min >= isHigherThan)
+            .Where(h => isLowerThan == null || h.ObjectiveTimePer10Min <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByWinRatePercentage(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.WinRatePercentage >= isHigherThan)
+            .Where(h => isLowerThan == null || h.WinRatePercentage <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByEliminationsPer10Min(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.EliminationsPer10Min >= isHigherThan)
+            .Where(h => isLowerThan == null || h.EliminationsPer10Min <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByDeathsPer10Min(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.DeathsPer10Min >= isHigherThan)
+            .Where(h => isLowerThan == null || h.DeathsPer10Min <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByDamagePer10Min(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.DamagePer10Min >= isHigherThan)
+            .Where(h => isLowerThan == null || h.DamagePer10Min <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByHealingPer10Min(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.HealingPer10Min >= isHigherThan)
+            .Where(h => isLowerThan == null || h.HealingPer10Min <= isLowerThan)
+            .ToList();
+    }
+
+    public static void GetByDeathPer10Min(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    {
+        CheckCondition(isHigherThan, isLowerThan);
+        listOfFilteredStats = listOfFilteredStats
+            .Where(h => isHigherThan == null || h.DeathsPer10Min >= isHigherThan)
+            .Where(h => isLowerThan == null || h.DeathsPer10Min <= isLowerThan)
+            .ToList();
+    }
+
+    public static void Sort(ref List<Overwatch2Statistics> listOfStats, SortOrder sortOrder, string sortProperty)
+    {
+        var parameter = Expression.Parameter(typeof(Overwatch2Statistics), "stat");
+        var property = Expression.Property(parameter, sortProperty);
+        var lambda = Expression.Lambda<Func<Overwatch2Statistics, object>>(Expression.Convert(property, typeof(object)), parameter);
+
+        var sortedStats = sortOrder == SortOrder.ASC
+            ? listOfStats.OrderBy(lambda.Compile())
+            : listOfStats.OrderByDescending(lambda.Compile());
+
+        listOfStats = sortedStats.ToList();
+    }
 }

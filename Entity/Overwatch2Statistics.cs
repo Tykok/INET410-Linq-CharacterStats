@@ -1,4 +1,3 @@
-using System.Globalization;
 using System.Text.Json.Serialization;
 using INET410.Utils;
 
@@ -6,67 +5,67 @@ namespace INET410.Entity;
 
 public class Overwatch2Statistics
 {
-   
-    [JsonPropertyName("hero")]
-    public String Hero{get; set;}
-    
-    [JsonPropertyName("skillTier")]
-    public String SkillTier{get; set;}
-
-    [JsonPropertyName("kdaRatio")] 
-    public Double KDARatio{get; set;}
-    
-    [JsonPropertyName("pickRatePercentage")]
-    public Double? PickRatePercentage{get; set;}
-    
-    [JsonPropertyName("winRatePercentage")]
-    public Double? WinRatePercentage {get; set;}
-    
-    [JsonPropertyName("eliminationsPer10min")]
-    public Double? EliminationsPer10min {get; set;}
-    
-    [JsonPropertyName("ObjectiveKillsPer10min")]
-    public Double? ObjectiveKillsPer10min {get; set;}
-    
-    [JsonPropertyName("objectiveTimePer10min")]
-    public Int32? ObjectiveTimePer10min {get; set;}
-    
-    [JsonPropertyName("damagePer10min")]
-    public Int32? DamagePer10min {get; set;}
-    
-    [JsonPropertyName("healingPer10min")]
-    public Int32? HealingPer10min {get; set;}
-    
-    [JsonPropertyName("deathsPer10min")]
-    public Double? DeathsPer10min {get; set;}
 
     public Overwatch2Statistics(
-        String Hero,
-        String SkillTier,
-        Double KDARatio,
-        Double? PickRatePercentage,
-        Double? WinRatePercentage,
-        Double? EliminationsPer10min,
-        Double? ObjectiveKillsPer10min,
-        Int32? ObjectiveTimePer10min,
-        Int32? DamagePer10min,
-        Int32? HealingPer10min,
-        Double? DeathsPer10min)
+        string Hero,
+        string SkillTier,
+        double KDARatio,
+        double? PickRatePercentage,
+        double? WinRatePercentage,
+        double? EliminationsPer10Min,
+        double? ObjectiveKillsPer10Min,
+        int? ObjectiveTimePer10Min,
+        int? DamagePer10Min,
+        int? HealingPer10Min,
+        double? DeathsPer10Min)
     {
         this.Hero = Hero;
         this.SkillTier = SkillTier;
         this.KDARatio = KDARatio;
         this.PickRatePercentage = PickRatePercentage;
         this.WinRatePercentage = WinRatePercentage;
-        this.EliminationsPer10min = EliminationsPer10min;
-        this.ObjectiveKillsPer10min = ObjectiveKillsPer10min;
-        this.ObjectiveTimePer10min = ObjectiveTimePer10min;
-        this.DamagePer10min = DamagePer10min;
-        this.HealingPer10min = HealingPer10min;
-        this.DeathsPer10min = DeathsPer10min;
+        this.EliminationsPer10Min = EliminationsPer10Min;
+        this.ObjectiveKillsPer10Min = ObjectiveKillsPer10Min;
+        this.ObjectiveTimePer10Min = ObjectiveTimePer10Min;
+        this.DamagePer10Min = DamagePer10Min;
+        this.HealingPer10Min = HealingPer10Min;
+        this.DeathsPer10Min = DeathsPer10Min;
     }
-    
-    
+
+    [JsonPropertyName("hero")]
+    public string Hero {get; set;}
+
+    [JsonPropertyName("skillTier")]
+    public string SkillTier {get; set;}
+
+    [JsonPropertyName("kdaRatio")]
+    public double KDARatio {get; set;}
+
+    [JsonPropertyName("pickRatePercentage")]
+    public double? PickRatePercentage {get; set;}
+
+    [JsonPropertyName("winRatePercentage")]
+    public double? WinRatePercentage {get; set;}
+
+    [JsonPropertyName("eliminationsPer10min")]
+    public double? EliminationsPer10Min {get; set;}
+
+    [JsonPropertyName("ObjectiveKillsPer10min")]
+    public double? ObjectiveKillsPer10Min {get; set;}
+
+    [JsonPropertyName("objectiveTimePer10min")]
+    public int? ObjectiveTimePer10Min {get; set;}
+
+    [JsonPropertyName("damagePer10min")]
+    public int? DamagePer10Min {get; set;}
+
+    [JsonPropertyName("healingPer10min")]
+    public int? HealingPer10Min {get; set;}
+
+    [JsonPropertyName("deathsPer10min")]
+    public double? DeathsPer10Min {get; set;}
+
+
     internal static Overwatch2Statistics ParseRow(string row)
     {
         var columns = row.Split(',');
@@ -81,23 +80,23 @@ public class Overwatch2Statistics
             !string.IsNullOrEmpty(columns[7]) ? Cast.StringToInt(columns[7]): null,
             !string.IsNullOrEmpty(columns[8]) ? Cast.StringToInt(columns[8]): null,
             !string.IsNullOrEmpty(columns[9]) ? Cast.StringToInt(columns[9]): null,
-            !string.IsNullOrEmpty(columns[10]) ? Cast.StringToDouble(columns[10]) : null
+            !string.IsNullOrEmpty(columns[10]) ? Cast.StringToDouble(columns[10]): null
         );
     }
-    
+
     public override string ToString()
     {
-        string stringOutput =  $"Hero: {Hero}," +
-                      $"SkillTier: {SkillTier}," +
-                      $"KDARatio: {KDARatio}," +
-                      $"PickRatePercentage: {PickRatePercentage}," +
-                      $"WinRatePercentage: {WinRatePercentage}," +
-                      $"EliminationsPer10min: {EliminationsPer10min}," +
-                      $"ObjectiveKillsPer10min: {ObjectiveKillsPer10min}," +
-                      $"ObjectiveTimePer10min: {ObjectiveTimePer10min}," +
-                      $"DamagePer10min: {DamagePer10min}," + 
-                      $"HealingPer10min: {HealingPer10min}," + 
-                      $"DeathsPer10min: {DeathsPer10min}";
+        var stringOutput = $"Hero: {Hero}," +
+                           $"SkillTier: {SkillTier}," +
+                           $"KDARatio: {KDARatio}," +
+                           $"PickRatePercentage: {PickRatePercentage}," +
+                           $"WinRatePercentage: {WinRatePercentage}," +
+                           $"EliminationsPer10Min: {EliminationsPer10Min}," +
+                           $"ObjectiveKillsPer10Min: {ObjectiveKillsPer10Min}," +
+                           $"ObjectiveTimePer10Min: {ObjectiveTimePer10Min}," +
+                           $"DamagePer10Min: {DamagePer10Min}," +
+                           $"HealingPer10Min: {HealingPer10Min}," +
+                           $"DeathsPer10Min: {DeathsPer10Min}";
         return stringOutput;
     }
 }
