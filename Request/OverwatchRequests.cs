@@ -19,18 +19,18 @@ public class OverwatchRequests : BasicsRequest
         return GetList().ToList();
     }
 
-    public static void GetByHero(ref List<Overwatch2Statistics> listOfFilteredStats, string? hero, bool isNot = false)
+    public static void GetByHero(ref List<Overwatch2Statistics> listOfFilteredStats, string? hero)
     {
         listOfFilteredStats = listOfFilteredStats
-            .Where(h => hero == null || isNot ? h.Hero != hero: h.Hero == hero)
+            .Where(h => hero == null || h.Hero.ToUpper().Contains(hero.ToUpper()))
             .ToList();
     }
 
 
-    public static void GetBySkillTier(ref List<Overwatch2Statistics> listOfFilteredStats, string? skillTier, bool isNot = false)
+    public static void GetBySkillTier(ref List<Overwatch2Statistics> listOfFilteredStats, string? skillTier)
     {
         listOfFilteredStats = listOfFilteredStats
-            .Where(h => skillTier == null || isNot ? h.SkillTier != skillTier: h.SkillTier == skillTier)
+            .Where(h => skillTier == null || h.SkillTier.ToUpper().Contains(skillTier.ToUpper()))
             .ToList();
     }
 

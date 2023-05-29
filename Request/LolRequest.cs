@@ -6,29 +6,29 @@ public class LolRequest : BasicsRequest
 {
     private readonly static string path = "./Data/lol_character_stats.json";
 
-    public static List<LolStatistics> GetCharacters()
+    public static List<LolStatistics> GetAll()
     {
         return DeserializeJson<LolStatistics>(path);
     }
 
-    public static void GetByName(ref List<LolStatistics> listOfFilteredStats, string? name, bool isNot = false)
+    public static void GetByName(ref List<LolStatistics> listOfFilteredStats, string? name)
     {
-        listOfFilteredStats = listOfFilteredStats.Where(h => name == null || isNot ? h.Name != name: h.Name == name).ToList();
+        listOfFilteredStats = listOfFilteredStats.Where(h => name == null || h.Name.ToUpper().Contains(name.ToUpper())).ToList();
     }
 
-    public static void GetByClassType(ref List<LolStatistics> listOfFilteredStats, string? classType, bool isNot = false)
+    public static void GetByClassType(ref List<LolStatistics> listOfFilteredStats, string? classType)
     {
-        listOfFilteredStats = listOfFilteredStats.Where(h => classType == null || isNot ? h.Class != classType: h.Class == classType).ToList();
+        listOfFilteredStats = listOfFilteredStats.Where(h => classType == null || h.Class.ToUpper().Contains(classType.ToUpper())).ToList();
     }
 
-    public static void GetByRole(ref List<LolStatistics> listOfFilteredStats, string? role, bool isNot = false)
+    public static void GetByRole(ref List<LolStatistics> listOfFilteredStats, string? role)
     {
-        listOfFilteredStats = listOfFilteredStats.Where(h => role == null || isNot ? h.Role != role: h.Role == role).ToList();
+        listOfFilteredStats = listOfFilteredStats.Where(h => role == null || h.Role.ToUpper().Contains(role.ToUpper())).ToList();
     }
 
-    public static void GetByTier(ref List<LolStatistics> listOfFilteredStats, string? tier, bool isNot = false)
+    public static void GetByTier(ref List<LolStatistics> listOfFilteredStats, string? tier)
     {
-        listOfFilteredStats = listOfFilteredStats.Where(h => tier == null || isNot ? h.Tier != tier: h.Tier == tier).ToList();
+        listOfFilteredStats = listOfFilteredStats.Where(h => tier == null || h.Tier == tier.ToUpper()).ToList();
     }
 
     public static void GetByScore(ref List<LolStatistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)

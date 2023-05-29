@@ -17,9 +17,7 @@ public class OverwatchCharacterController : ControllerBase
     [HttpGet("search")]
     public ActionResult<List<Overwatch2Statistics>> Search(
         [FromQuery] string? hero,
-        [FromQuery(Name = "heroIsNot")] string? heroIsNot,
         [FromQuery] string? skillTier,
-        [FromQuery(Name = "skillTierIsNot")] string? skillTierNot,
         [FromQuery(Name = "kdaRatioIsHigherThan")] double? kdaRatioHigher,
         [FromQuery(Name = "kdaRatioIsLowerThan")] double? kdaRatioLower,
         [FromQuery(Name = "pickRatePercentageIsHigherThan")] double? pickRatePercentageHigher,
@@ -38,8 +36,8 @@ public class OverwatchCharacterController : ControllerBase
         [FromQuery(Name = "healingPer10MinIsLowerThan")] int? healingPer10MinLower,
         [FromQuery(Name = "deathsPer10MinIsHigherThan")] double? deathsPer10MinHigher,
         [FromQuery(Name = "deathsPer10MinIsLowerThan")] double? deathsPer10MinLower,
-        [FromQuery] string sortBy = "hero",
-        [FromQuery] SortOrder sortOrder = SortOrder.ASC
+        [FromQuery] string? sortBy = "hero",
+        [FromQuery] SortOrder? sortOrder = SortOrder.ASC
     )
     {
 
@@ -47,15 +45,9 @@ public class OverwatchCharacterController : ControllerBase
 
         try
         {
-            if(hero != null && heroIsNot != null && hero == heroIsNot) throw new Exception("Cannot search for hero and heroIsNot at the same time");
-            if(skillTier != null && skillTierNot != null && skillTier == skillTierNot) throw new Exception("Cannot search for skillTier and skillTierNot at the same time");
-
             results = OverwatchRequests.GetAll();
             OverwatchRequests.GetByHero(ref results, hero);
-            OverwatchRequests.GetByHero(ref results, heroIsNot, true);
             OverwatchRequests.GetBySkillTier(ref results, skillTier);
-            OverwatchRequests.GetBySkillTier(ref results, skillTierNot, true);
-
             OverwatchRequests.GetByKdaRatio(ref results, kdaRatioHigher, kdaRatioLower);
             OverwatchRequests.GetByPickRatePercentage(ref results, pickRatePercentageHigher, pickRatePercentageLower);
             OverwatchRequests.GetByWinRatePercentage(ref results, winRatePercentageHigher, winRatePercentageLower);
@@ -65,7 +57,7 @@ public class OverwatchCharacterController : ControllerBase
             OverwatchRequests.GetByDamagePer10Min(ref results, damagePer10MinHigher, damagePer10MinLower);
             OverwatchRequests.GetByHealingPer10Min(ref results, healingPer10MinHigher, healingPer10MinLower);
             OverwatchRequests.GetByDeathsPer10Min(ref results, deathsPer10MinHigher, deathsPer10MinLower);
-            OverwatchRequests.Order(ref results, sortOrder, sortBy);
+            OverwatchRequests.Order(ref results, sortOrder?? SortOrder.ASC, sortBy?? "hero");
         }
         catch (Exception e)
         {

@@ -11,33 +11,29 @@ public class LolStatsController : ControllerBase
     [HttpGet]
     public ActionResult<List<LolStatistics>> Get()
     {
-        return Ok(LolRequest.GetCharacters());
+        return Ok(LolRequest.GetAll());
     }
 
     [HttpGet("search")]
     public ActionResult<List<LolStatistics>> Search(
-        [FromQuery] string? name = null,
-        [FromQuery] string? nameIsNot = null,
-        [FromQuery] string? classType = null,
-        [FromQuery] string? classTypeIsNot = null,
-        [FromQuery] string? role = null,
-        [FromQuery] string? roleIsNot = null,
-        [FromQuery] string? tier = null,
-        [FromQuery] string? tierIsNot = null,
-        [FromQuery] double? scoreIsHigherThan = null,
-        [FromQuery] double? scoreIsLowerThan = null,
-        [FromQuery] double? trendIsHigherThan = null,
-        [FromQuery] double? trendIsLowerThan = null,
-        [FromQuery] double? winPercentageIsHigherThan = null,
-        [FromQuery] double? winPercentageIsLowerThan = null,
-        [FromQuery] double? rolePercentageIsHigherThan = null,
-        [FromQuery] double? rolePercentageIsLowerThan = null,
-        [FromQuery] double? pickPercentageIsHigherThan = null,
-        [FromQuery] double? pickPercentageIsLowerThan = null,
-        [FromQuery] double? banPercentageIsHigherThan = null,
-        [FromQuery] double? banPercentageIsLowerThan = null,
-        [FromQuery] double? kdaIsHigherThan = null,
-        [FromQuery] double? kdaIsLowerThan = null,
+        [FromQuery] string? name,
+        [FromQuery] string? classType,
+        [FromQuery] string? role,
+        [FromQuery] string? tier,
+        [FromQuery] double? scoreIsHigherThan,
+        [FromQuery] double? scoreIsLowerThan,
+        [FromQuery] double? trendIsHigherThan,
+        [FromQuery] double? trendIsLowerThan,
+        [FromQuery] double? winPercentageIsHigherThan,
+        [FromQuery] double? winPercentageIsLowerThan,
+        [FromQuery] double? rolePercentageIsHigherThan,
+        [FromQuery] double? rolePercentageIsLowerThan,
+        [FromQuery] double? pickPercentageIsHigherThan,
+        [FromQuery] double? pickPercentageIsLowerThan,
+        [FromQuery] double? banPercentageIsHigherThan,
+        [FromQuery] double? banPercentageIsLowerThan,
+        [FromQuery] double? kdaIsHigherThan,
+        [FromQuery] double? kdaIsLowerThan,
         [FromQuery] string? sortProperty = "name",
         [FromQuery] SortOrder? sortOrder = SortOrder.ASC
     )
@@ -46,20 +42,11 @@ public class LolStatsController : ControllerBase
 
         try
         {
-            if(name != null && nameIsNot != null && name == nameIsNot) throw new Exception("Cannot have both name and nameIsNot.");
-            if(classType != null && classTypeIsNot != null && classType == classTypeIsNot) throw new Exception("Cannot have both classType and classTypeIsNot.");
-            if(role != null && roleIsNot != null && role == roleIsNot) throw new Exception("Cannot have both role and roleIsNot.");
-            if(tier != null && tierIsNot != null && tier == tierIsNot) throw new Exception("Cannot have both tier and tierIsNot.");
-
-            result = LolRequest.GetCharacters();
+            result = LolRequest.GetAll();
             LolRequest.GetByName(ref result, name);
-            LolRequest.GetByName(ref result, nameIsNot, true);
             LolRequest.GetByClassType(ref result, classType);
-            LolRequest.GetByClassType(ref result, classTypeIsNot, true);
             LolRequest.GetByRole(ref result, role);
-            LolRequest.GetByRole(ref result, roleIsNot, true);
             LolRequest.GetByTier(ref result, tier);
-            LolRequest.GetByTier(ref result, tierIsNot, true);
             LolRequest.GetByScore(ref result, scoreIsHigherThan, scoreIsLowerThan);
             LolRequest.GetByTrend(ref result, trendIsHigherThan, trendIsLowerThan);
             LolRequest.GetByWinPercentage(ref result, winPercentageIsHigherThan, winPercentageIsLowerThan);
