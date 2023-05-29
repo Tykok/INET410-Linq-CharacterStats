@@ -37,33 +37,33 @@ public class LolStatistics
         public Double BanPercentage {get; set;}
         
         [JsonPropertyName("kda")]
-        public Double KDA {get; set;}
+        public Double Kda {get; set;}
 
         public LolStatistics(
-                String Name,
-                String Class,
-                String Role,
-                String Tier,
-                Double Score,
-                Double Trend,
-                String WinPercentage,
-                String RolePercentage,
-                String PickPercentage,
-                String BanPercentage,
-                Double KDA
+                String name,
+                String classe,
+                String role,
+                String tier,
+                Double score,
+                Double trend,
+                String winPercentage,
+                String rolePercentage,
+                String pickPercentage,
+                String banPercentage,
+                Double kda
         )
         {
-                this.Name = Name;
-                this.Class = Class;
-                this.Role = (Role)Enum.Parse(typeof(Role), Role);
-                this.Tier = Tier;
-                this.Score = Score;
-                this.Trend = Trend;
-                this.WinPercentage = Cast.StringToDouble(WinPercentage.Replace("%", ""));
-                this.RolePercentage = Cast.StringToDouble(RolePercentage.Replace("%", ""));
-                this.PickPercentage = Cast.StringToDouble(PickPercentage.Replace("%", ""));
-                this.BanPercentage = Cast.StringToDouble(BanPercentage.Replace("%", ""));
-                this.KDA = KDA;        
+                this.Name = name;
+                this.Class = classe;
+                this.Role = (Role)Enum.Parse(typeof(Role), role);
+                this.Tier = tier;
+                this.Score = score;
+                this.Trend = trend;
+                this.WinPercentage = Cast.StringToDouble(winPercentage.Replace("%", ""));
+                this.RolePercentage = Cast.StringToDouble(rolePercentage.Replace("%", ""));
+                this.PickPercentage = Cast.StringToDouble(pickPercentage.Replace("%", ""));
+                this.BanPercentage = Cast.StringToDouble(banPercentage.Replace("%", ""));
+                this.Kda = kda;        
         }
         
         
@@ -77,5 +77,5 @@ public class LolStatistics
                                              $"RolePercentage: {RolePercentage}," +
                                              $"PickPercentage: {PickPercentage}," +
                                              $"BanPercentage: {BanPercentage}," +
-                                             $"KDA: {KDA}";
+                                             $"KDA: {Kda}";
 }

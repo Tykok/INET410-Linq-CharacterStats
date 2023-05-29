@@ -7,29 +7,29 @@ public class Overwatch2Statistics
 {
 
     public Overwatch2Statistics(
-        string Hero,
-        string SkillTier,
-        double KDARatio,
-        double? PickRatePercentage,
-        double? WinRatePercentage,
-        double? EliminationsPer10Min,
-        double? ObjectiveKillsPer10Min,
-        int? ObjectiveTimePer10Min,
-        int? DamagePer10Min,
-        int? HealingPer10Min,
-        double? DeathsPer10Min)
+        string hero,
+        string skillTier,
+        double kdaRatio,
+        double? pickRatePercentage,
+        double? winRatePercentage,
+        double? eliminationsPer10Min,
+        double? objectiveKillsPer10Min,
+        int? objectiveTimePer10Min,
+        int? damagePer10Min,
+        int? healingPer10Min,
+        double? deathsPer10Min)
     {
-        this.Hero = Hero;
-        this.SkillTier = SkillTier;
-        this.KDARatio = KDARatio;
-        this.PickRatePercentage = PickRatePercentage;
-        this.WinRatePercentage = WinRatePercentage;
-        this.EliminationsPer10Min = EliminationsPer10Min;
-        this.ObjectiveKillsPer10Min = ObjectiveKillsPer10Min;
-        this.ObjectiveTimePer10Min = ObjectiveTimePer10Min;
-        this.DamagePer10Min = DamagePer10Min;
-        this.HealingPer10Min = HealingPer10Min;
-        this.DeathsPer10Min = DeathsPer10Min;
+        Hero = hero;
+        SkillTier = skillTier;
+        KdaRatio = kdaRatio;
+        PickRatePercentage = pickRatePercentage;
+        WinRatePercentage = winRatePercentage;
+        EliminationsPer10Min = eliminationsPer10Min;
+        ObjectiveKillsPer10Min = objectiveKillsPer10Min;
+        ObjectiveTimePer10Min = objectiveTimePer10Min;
+        DamagePer10Min = damagePer10Min;
+        HealingPer10Min = healingPer10Min;
+        DeathsPer10Min = deathsPer10Min;
     }
 
     [JsonPropertyName("hero")]
@@ -39,7 +39,7 @@ public class Overwatch2Statistics
     public string SkillTier {get; set;}
 
     [JsonPropertyName("kdaRatio")]
-    public double KDARatio {get; set;}
+    public double KdaRatio {get; set;}
 
     [JsonPropertyName("pickRatePercentage")]
     public double? PickRatePercentage {get; set;}
@@ -88,7 +88,7 @@ public class Overwatch2Statistics
     {
         var stringOutput = $"Hero: {Hero}," +
                            $"SkillTier: {SkillTier}," +
-                           $"KDARatio: {KDARatio}," +
+                           $"KDARatio: {KdaRatio}," +
                            $"PickRatePercentage: {PickRatePercentage}," +
                            $"WinRatePercentage: {WinRatePercentage}," +
                            $"EliminationsPer10Min: {EliminationsPer10Min}," +

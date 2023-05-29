@@ -46,8 +46,8 @@ public class OverwatchRequests
     {
         CheckCondition(isHigherThan, isLowerThan);
         listOfFilteredStats = listOfFilteredStats
-            .Where(h => isHigherThan == null || h.KDARatio >= isHigherThan)
-            .Where(h => isLowerThan == null || h.KDARatio <= isLowerThan)
+            .Where(h => isHigherThan == null || h.KdaRatio >= isHigherThan)
+            .Where(h => isLowerThan == null || h.KdaRatio <= isLowerThan)
             .ToList();
     }
 

@@ -69,7 +69,7 @@ public class Tests
     public void CheckKdaRatio(double kdaRatioHigherThan, double kdaRationLowerThan)
     {
         OverwatchRequests.GetByKdaRatio(ref overwatchStats, kdaRatioHigherThan, kdaRationLowerThan);
-        AssertExtensions.Every(overwatchStats, s => s.KDARatio >= kdaRatioHigherThan && s.KDARatio <= kdaRationLowerThan);
+        AssertExtensions.Every(overwatchStats, s => s.KdaRatio >= kdaRatioHigherThan && s.KdaRatio <= kdaRationLowerThan);
     }
 
     [TestCase(5, 8)]
