@@ -1,9 +1,8 @@
-using System.Linq.Expressions;
 using INET410.Utils;
 
 namespace INET410.Request;
 
-public class OverwatchRequests
+public class OverwatchRequests : BasicsRequest
 {
 
     private readonly static string Path = "./Data/overwatchs2_character_stats.csv";
@@ -15,29 +14,23 @@ public class OverwatchRequests
             .Select(Overwatch2Statistics.ParseRow);
     }
 
-    public static void CheckCondition(double? isHigherThan, double? isLowerThan)
-    {
-        if(isHigherThan.HasValue && isLowerThan.HasValue && isHigherThan > isLowerThan)
-            throw new Exception($"The higher value {isHigherThan} cannot be greater than the lower value {isLowerThan}.");
-    }
-
     public static List<Overwatch2Statistics> GetAll()
     {
         return GetList().ToList();
     }
 
-    public static void GetByHero(ref List<Overwatch2Statistics> listOfFilteredStats, string hero, bool isNot = false)
+    public static void GetByHero(ref List<Overwatch2Statistics> listOfFilteredStats, string? hero, bool isNot = false)
     {
         listOfFilteredStats = listOfFilteredStats
-            .Where(h => isNot ? h.Hero != hero: h.Hero == hero)
+            .Where(h => hero == null || isNot ? h.Hero != hero: h.Hero == hero)
             .ToList();
     }
 
 
-    public static void GetBySkillTier(ref List<Overwatch2Statistics> listOfFilteredStats, string skillTier, bool isNot = false)
+    public static void GetBySkillTier(ref List<Overwatch2Statistics> listOfFilteredStats, string? skillTier, bool isNot = false)
     {
         listOfFilteredStats = listOfFilteredStats
-            .Where(h => isNot ? h.SkillTier != skillTier: h.SkillTier == skillTier)
+            .Where(h => skillTier == null || isNot ? h.SkillTier != skillTier: h.SkillTier == skillTier)
             .ToList();
     }
 
@@ -123,25 +116,8 @@ public class OverwatchRequests
             .ToList();
     }
 
-    public static void GetByDeathPer10Min(ref List<Overwatch2Statistics> listOfFilteredStats, double? isHigherThan, double? isLowerThan)
+    public static void Order(ref List<Overwatch2Statistics> listOfStats, SortOrder sortOrder, string sortProperty)
     {
-        CheckCondition(isHigherThan, isLowerThan);
-        listOfFilteredStats = listOfFilteredStats
-            .Where(h => isHigherThan == null || h.DeathsPer10Min >= isHigherThan)
-            .Where(h => isLowerThan == null || h.DeathsPer10Min <= isLowerThan)
-            .ToList();
-    }
-
-    public static void Sort(ref List<Overwatch2Statistics> listOfStats, SortOrder sortOrder, string sortProperty)
-    {
-        var parameter = Expression.Parameter(typeof(Overwatch2Statistics), "stat");
-        var property = Expression.Property(parameter, sortProperty);
-        var lambda = Expression.Lambda<Func<Overwatch2Statistics, object>>(Expression.Convert(property, typeof(object)), parameter);
-
-        var sortedStats = sortOrder == SortOrder.ASC
-            ? listOfStats.OrderBy(lambda.Compile())
-            : listOfStats.OrderByDescending(lambda.Compile());
-
-        listOfStats = sortedStats.ToList();
+        OrderListByProperty(ref listOfStats, sortOrder, sortProperty);
     }
 }

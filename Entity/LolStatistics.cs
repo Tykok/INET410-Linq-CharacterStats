@@ -1,4 +1,3 @@
-using System.Runtime.Serialization;
 using System.Text.Json.Serialization;
 using INET410.Utils;
 
@@ -6,76 +5,80 @@ namespace INET410.Entity;
 
 public class LolStatistics
 {
-        [JsonPropertyName("name")]
-        public String Name {get; set;}
-        
-        [JsonPropertyName("class")]
-        public String Class {get; set;}
-        
-        [JsonPropertyName("role")]
-        public Role Role {get; set;}
-        
-        [JsonPropertyName("tier")]
-        public String Tier {get; set;}
-        
-        [JsonPropertyName("score")]
-        public Double Score {get; set;}
-        
-        [JsonPropertyName("trend")]
-        public Double Trend {get; set;}
-        
-        [JsonPropertyName("winPercentage")]
-        public Double WinPercentage {get; set;}
-        
-        [JsonPropertyName("rolePercentage")]
-        public Double RolePercentage {get; set;}
-        
-        [JsonPropertyName("pickPercentage")]
-        public Double PickPercentage {get; set;}
-        
-        [JsonPropertyName("banPercentage")]
-        public Double BanPercentage {get; set;}
-        
-        [JsonPropertyName("kda")]
-        public Double Kda {get; set;}
 
-        public LolStatistics(
-                String name,
-                String classe,
-                String role,
-                String tier,
-                Double score,
-                Double trend,
-                String winPercentage,
-                String rolePercentage,
-                String pickPercentage,
-                String banPercentage,
-                Double kda
-        )
-        {
-                this.Name = name;
-                this.Class = classe;
-                this.Role = (Role)Enum.Parse(typeof(Role), role);
-                this.Tier = tier;
-                this.Score = score;
-                this.Trend = trend;
-                this.WinPercentage = Cast.StringToDouble(winPercentage.Replace("%", ""));
-                this.RolePercentage = Cast.StringToDouble(rolePercentage.Replace("%", ""));
-                this.PickPercentage = Cast.StringToDouble(pickPercentage.Replace("%", ""));
-                this.BanPercentage = Cast.StringToDouble(banPercentage.Replace("%", ""));
-                this.Kda = kda;        
-        }
-        
-        
-        public override string ToString() => $"Name: {Name}," +
-                                             $"Class: {Class}," +
-                                             $"Role: {Role}," +
-                                             $"Tier: {Tier}," +
-                                             $"Score: {Score}," +
-                                             $"Trend: {Trend}," +
-                                             $"WinPercentage: {WinPercentage}," +
-                                             $"RolePercentage: {RolePercentage}," +
-                                             $"PickPercentage: {PickPercentage}," +
-                                             $"BanPercentage: {BanPercentage}," +
-                                             $"KDA: {Kda}";
+    public LolStatistics(
+        string name,
+        string classe,
+        string role,
+        string tier,
+        double score,
+        double trend,
+        string winPercentage,
+        string rolePercentage,
+        string pickPercentage,
+        string banPercentage,
+        double kda
+    )
+    {
+        Name = name;
+        Class = classe;
+        Role = role;
+        Tier = tier;
+        Score = score;
+        Trend = trend;
+        WinPercentage = Cast.StringToDouble(winPercentage.Replace("%", ""));
+        RolePercentage = Cast.StringToDouble(rolePercentage.Replace("%", ""));
+        PickPercentage = Cast.StringToDouble(pickPercentage.Replace("%", ""));
+        BanPercentage = Cast.StringToDouble(banPercentage.Replace("%", ""));
+        Kda = kda;
+    }
+
+    [JsonPropertyName("name")]
+    public string Name {get; set;}
+
+    [JsonPropertyName("class")]
+    public string Class {get; set;}
+
+    [JsonPropertyName("role")]
+    public string Role {get; set;}
+
+    [JsonPropertyName("tier")]
+    public string Tier {get; set;}
+
+    [JsonPropertyName("score")]
+    public double Score {get; set;}
+
+    [JsonPropertyName("trend")]
+    public double Trend {get; set;}
+
+    [JsonPropertyName("winPercentage")]
+    public double WinPercentage {get; set;}
+
+    [JsonPropertyName("rolePercentage")]
+    public double RolePercentage {get; set;}
+
+    [JsonPropertyName("pickPercentage")]
+    public double PickPercentage {get; set;}
+
+    [JsonPropertyName("banPercentage")]
+    public double BanPercentage {get; set;}
+
+    [JsonPropertyName("kda")]
+    public double Kda {get; set;}
+
+
+    public override string ToString()
+    {
+        return $"Name: {Name}," +
+               $"Class: {Class}," +
+               $"Role: {Role}," +
+               $"Tier: {Tier}," +
+               $"Score: {Score}," +
+               $"Trend: {Trend}," +
+               $"WinPercentage: {WinPercentage}," +
+               $"RolePercentage: {RolePercentage}," +
+               $"PickPercentage: {PickPercentage}," +
+               $"BanPercentage: {BanPercentage}," +
+               $"KDA: {Kda}";
+    }
 }

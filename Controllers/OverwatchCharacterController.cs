@@ -21,23 +21,23 @@ public class OverwatchCharacterController : ControllerBase
         [FromQuery] string? skillTier,
         [FromQuery(Name = "skillTierIsNot")] string? skillTierNot,
         [FromQuery(Name = "kdaRatioIsHigherThan")] double? kdaRatioHigher,
-        [FromQuery(Name = "kdaRatioIsLessThan")] double? kdaRatioLess,
+        [FromQuery(Name = "kdaRatioIsLowerThan")] double? kdaRatioLower,
         [FromQuery(Name = "pickRatePercentageIsHigherThan")] double? pickRatePercentageHigher,
-        [FromQuery(Name = "pickRatePercentageIsLessThan")] double? pickRatePercentageLess,
+        [FromQuery(Name = "pickRatePercentageIsLowerThan")] double? pickRatePercentageLower,
         [FromQuery(Name = "winRatePercentageIsHigherThan")] double? winRatePercentageHigher,
-        [FromQuery(Name = "winRatePercentageIsLessThan")] double? winRatePercentageLess,
+        [FromQuery(Name = "winRatePercentageIsLowerThan")] double? winRatePercentageLower,
         [FromQuery(Name = "eliminationsPer10MinIsHigherThan")] double? eliminationsPer10MinHigher,
-        [FromQuery(Name = "eliminationsPer10MinIsLessThan")] double? eliminationsPer10MinLess,
+        [FromQuery(Name = "eliminationsPer10MinIsLowerThan")] double? eliminationsPer10MinLower,
         [FromQuery(Name = "objectiveKillsPer10MinIsHigherThan")] double? objectiveKillsPer10MinHigher,
-        [FromQuery(Name = "objectiveKillsPer10MinIsLessThan")] double? objectiveKillsPer10MinLess,
+        [FromQuery(Name = "objectiveKillsPer10MinIsLowerThan")] double? objectiveKillsPer10MinLower,
         [FromQuery(Name = "objectiveTimePer10MinIsHigherThan")] int? objectiveTimePer10MinHigher,
-        [FromQuery(Name = "objectiveTimePer10MinIsLessThan")] int? objectiveTimePer10MinLess,
+        [FromQuery(Name = "objectiveTimePer10MinIsLowerThan")] int? objectiveTimePer10MinLower,
         [FromQuery(Name = "damagePer10MinIsHigherThan")] int? damagePer10MinHigher,
-        [FromQuery(Name = "damagePer10MinIsLessThan")] int? damagePer10MinLess,
+        [FromQuery(Name = "damagePer10MinIsLowerThan")] int? damagePer10MinLower,
         [FromQuery(Name = "healingPer10MinIsHigherThan")] int? healingPer10MinHigher,
-        [FromQuery(Name = "healingPer10MinIsLessThan")] int? healingPer10MinLess,
+        [FromQuery(Name = "healingPer10MinIsLowerThan")] int? healingPer10MinLower,
         [FromQuery(Name = "deathsPer10MinIsHigherThan")] double? deathsPer10MinHigher,
-        [FromQuery(Name = "deathsPer10MinIsLessThan")] double? deathsPer10MinessL,
+        [FromQuery(Name = "deathsPer10MinIsLowerThan")] double? deathsPer10MinLower,
         [FromQuery] string sortBy = "hero",
         [FromQuery] SortOrder sortOrder = SortOrder.ASC
     )
@@ -47,25 +47,25 @@ public class OverwatchCharacterController : ControllerBase
 
         try
         {
-            if(hero != null && heroIsNot != null) throw new Exception("Cannot search for hero and heroIsNot at the same time");
-            if(skillTier != null && skillTierNot != null) throw new Exception("Cannot search for skillTier and skillTierNot at the same time");
+            if(hero != null && heroIsNot != null && hero == heroIsNot) throw new Exception("Cannot search for hero and heroIsNot at the same time");
+            if(skillTier != null && skillTierNot != null && skillTier == skillTierNot) throw new Exception("Cannot search for skillTier and skillTierNot at the same time");
 
             results = OverwatchRequests.GetAll();
-            if(hero != null) OverwatchRequests.GetByHero(ref results, hero);
-            if(heroIsNot != null) OverwatchRequests.GetByHero(ref results, heroIsNot, true);
-            if(skillTier != null) OverwatchRequests.GetBySkillTier(ref results, skillTier);
-            if(skillTierNot != null) OverwatchRequests.GetBySkillTier(ref results, skillTierNot, true);
+            OverwatchRequests.GetByHero(ref results, hero);
+            OverwatchRequests.GetByHero(ref results, heroIsNot, true);
+            OverwatchRequests.GetBySkillTier(ref results, skillTier);
+            OverwatchRequests.GetBySkillTier(ref results, skillTierNot, true);
 
-            OverwatchRequests.GetByKdaRatio(ref results, kdaRatioHigher, kdaRatioLess);
-            OverwatchRequests.GetByPickRatePercentage(ref results, pickRatePercentageHigher, pickRatePercentageLess);
-            OverwatchRequests.GetByWinRatePercentage(ref results, winRatePercentageHigher, winRatePercentageLess);
-            OverwatchRequests.GetByEliminationsPer10Min(ref results, eliminationsPer10MinHigher, eliminationsPer10MinLess);
-            OverwatchRequests.GetByObjectiveKillsPer10Min(ref results, objectiveKillsPer10MinHigher, objectiveKillsPer10MinLess);
-            OverwatchRequests.GetByObjectiveTimePer10Min(ref results, objectiveTimePer10MinHigher, objectiveTimePer10MinLess);
-            OverwatchRequests.GetByDamagePer10Min(ref results, damagePer10MinHigher, damagePer10MinLess);
-            OverwatchRequests.GetByHealingPer10Min(ref results, healingPer10MinHigher, healingPer10MinLess);
-            OverwatchRequests.GetByDeathsPer10Min(ref results, deathsPer10MinHigher, deathsPer10MinessL);
-            OverwatchRequests.Sort(ref results, sortOrder, sortBy);
+            OverwatchRequests.GetByKdaRatio(ref results, kdaRatioHigher, kdaRatioLower);
+            OverwatchRequests.GetByPickRatePercentage(ref results, pickRatePercentageHigher, pickRatePercentageLower);
+            OverwatchRequests.GetByWinRatePercentage(ref results, winRatePercentageHigher, winRatePercentageLower);
+            OverwatchRequests.GetByEliminationsPer10Min(ref results, eliminationsPer10MinHigher, eliminationsPer10MinLower);
+            OverwatchRequests.GetByObjectiveKillsPer10Min(ref results, objectiveKillsPer10MinHigher, objectiveKillsPer10MinLower);
+            OverwatchRequests.GetByObjectiveTimePer10Min(ref results, objectiveTimePer10MinHigher, objectiveTimePer10MinLower);
+            OverwatchRequests.GetByDamagePer10Min(ref results, damagePer10MinHigher, damagePer10MinLower);
+            OverwatchRequests.GetByHealingPer10Min(ref results, healingPer10MinHigher, healingPer10MinLower);
+            OverwatchRequests.GetByDeathsPer10Min(ref results, deathsPer10MinHigher, deathsPer10MinLower);
+            OverwatchRequests.Order(ref results, sortOrder, sortBy);
         }
         catch (Exception e)
         {

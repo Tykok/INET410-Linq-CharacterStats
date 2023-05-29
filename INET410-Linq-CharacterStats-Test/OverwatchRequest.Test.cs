@@ -28,7 +28,7 @@ public class Tests
     [Description("Check if an error is thrown when the higher value is greater than the lower value")]
     public void CheckPickRatePercentageThrowError()
     {
-        Assert.Throws<Exception>(() => OverwatchRequests.CheckCondition(50, 40));
+        Assert.Throws<Exception>(() => BasicsRequest.CheckCondition(50, 40));
     }
 
     [TestCase("Ana")]
@@ -159,7 +159,7 @@ public class Tests
     [Description("Check the order is correct")]
     public void CheckOrderDesc()
     {
-        OverwatchRequests.Sort(ref overwatchStats, SortOrder.DESC, "deathsPer10Min");
+        OverwatchRequests.Order(ref overwatchStats, SortOrder.DESC, "deathsPer10Min");
         for (var i = 0; i < overwatchStats.Count - 1; i++)
         {
             var current = overwatchStats[i];
@@ -172,6 +172,6 @@ public class Tests
     [Description("Check an error is thrown when the order property is not correct")]
     public void CheckOrderDescError()
     {
-        Assert.Throws<ArgumentException>(() => OverwatchRequests.Sort(ref overwatchStats, SortOrder.DESC, "anUnknownProperty"));
+        Assert.Throws<ArgumentException>(() => OverwatchRequests.Order(ref overwatchStats, SortOrder.DESC, "anUnknownProperty"));
     }
 }
