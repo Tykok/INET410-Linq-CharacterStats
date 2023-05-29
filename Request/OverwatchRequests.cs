@@ -19,7 +19,7 @@ public class OverwatchRequests : BasicsRequest
         return GetList().ToList();
     }
 
-    public static void GetByHero(ref List<Overwatch2Statistics> listOfFilteredStats, string? hero)
+    public static void FilterByHero(ref List<Overwatch2Statistics> listOfFilteredStats, string? hero)
     {
         listOfFilteredStats = listOfFilteredStats
             .Where(h => hero == null || h.Hero.ToUpper().Contains(hero.ToUpper()))
@@ -27,7 +27,7 @@ public class OverwatchRequests : BasicsRequest
     }
 
 
-    public static void GetBySkillTier(ref List<Overwatch2Statistics> listOfFilteredStats, string? skillTier)
+    public static void FilterBySkillTier(ref List<Overwatch2Statistics> listOfFilteredStats, string? skillTier)
     {
         listOfFilteredStats = listOfFilteredStats
             .Where(h => skillTier == null || h.SkillTier.ToUpper().Contains(skillTier.ToUpper()))

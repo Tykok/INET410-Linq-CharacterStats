@@ -37,7 +37,7 @@ public class OverwatchRequest_Test
     [Description("Check if all the Heroes contain the given value")]
     public void CheckSearch(string hero)
     {
-        OverwatchRequests.GetByHero(ref _overwatchStats, hero);
+        OverwatchRequests.FilterByHero(ref _overwatchStats, hero);
         Assert.IsTrue(_overwatchStats.Count > 0);
         AssertExtensions.Every(_overwatchStats, s => s.Hero.Contains(hero));
     }
@@ -48,7 +48,7 @@ public class OverwatchRequest_Test
     [Description("Check if all the SkillTiers contain the given value")]
     public void CheckSkillTier(string skillTier)
     {
-        OverwatchRequests.GetBySkillTier(ref _overwatchStats, skillTier);
+        OverwatchRequests.FilterBySkillTier(ref _overwatchStats, skillTier);
         Assert.IsTrue(_overwatchStats.Count > 0);
         AssertExtensions.Every(_overwatchStats, s => s.SkillTier.Contains(skillTier));
     }

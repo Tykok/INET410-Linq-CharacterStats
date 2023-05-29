@@ -11,22 +11,22 @@ public class LolRequest : BasicsRequest
         return DeserializeJson<LolStatistics>(path);
     }
 
-    public static void GetByName(ref List<LolStatistics> listOfFilteredStats, string? name)
+    public static void FilterByName(ref List<LolStatistics> listOfFilteredStats, string? name)
     {
         listOfFilteredStats = listOfFilteredStats.Where(h => name == null || h.Name.ToUpper().Contains(name.ToUpper())).ToList();
     }
 
-    public static void GetByClassType(ref List<LolStatistics> listOfFilteredStats, string? classType)
+    public static void FilterByType(ref List<LolStatistics> listOfFilteredStats, string? classType)
     {
         listOfFilteredStats = listOfFilteredStats.Where(h => classType == null || h.Class.ToUpper().Contains(classType.ToUpper())).ToList();
     }
 
-    public static void GetByRole(ref List<LolStatistics> listOfFilteredStats, string? role)
+    public static void FilterByRole(ref List<LolStatistics> listOfFilteredStats, string? role)
     {
         listOfFilteredStats = listOfFilteredStats.Where(h => role == null || h.Role.ToUpper().Contains(role.ToUpper())).ToList();
     }
 
-    public static void GetByTier(ref List<LolStatistics> listOfFilteredStats, string? tier)
+    public static void GetTierEqual(ref List<LolStatistics> listOfFilteredStats, string? tier)
     {
         listOfFilteredStats = listOfFilteredStats.Where(h => tier == null || h.Tier == tier.ToUpper()).ToList();
     }

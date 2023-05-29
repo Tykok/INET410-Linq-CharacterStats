@@ -19,7 +19,7 @@ public class LolRequest_Test
     [Description("Check if the name is contained in the list of characters")]
     public void CheckNameCondition(string champion)
     {
-        LolRequest.GetByName(ref _lolStats, champion);
+        LolRequest.FilterByName(ref _lolStats, champion);
         Assert.IsTrue(_lolStats.Count > 0);
         AssertExtensions.Every(_lolStats, h => h.Name.ToUpper().Contains(champion.ToUpper()));
     }
@@ -30,7 +30,7 @@ public class LolRequest_Test
     [Description("Check if the class is contained in the list of characters")]
     public void CheckClassCondition(string classe)
     {
-        LolRequest.GetByClassType(ref _lolStats, classe);
+        LolRequest.FilterByType(ref _lolStats, classe);
         Assert.IsTrue(_lolStats.Count > 0);
         AssertExtensions.Every(_lolStats, h => h.Class.ToUpper().Contains(classe.ToUpper()));
     }
@@ -41,7 +41,7 @@ public class LolRequest_Test
     [Description("Check if the role is contained in the list of characters")]
     public void CheckRoleCondition(string role)
     {
-        LolRequest.GetByRole(ref _lolStats, role);
+        LolRequest.FilterByRole(ref _lolStats, role);
         Assert.IsTrue(_lolStats.Count > 0);
         AssertExtensions.Every(_lolStats, h => h.Role.ToUpper().Contains(role.ToUpper()));
     }
@@ -52,7 +52,7 @@ public class LolRequest_Test
     [Description("Check if the tier is contained in the list of characters")]
     public void CheckTierCondition(string tier)
     {
-        LolRequest.GetByTier(ref _lolStats, tier);
+        LolRequest.GetTierEqual(ref _lolStats, tier);
         Assert.IsTrue(_lolStats.Count > 0);
         AssertExtensions.Every(_lolStats, h => h.Tier == tier);
     }

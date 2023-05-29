@@ -1,3 +1,4 @@
+using System.Xml;
 using INET410.Utils;
 using Microsoft.AspNetCore.Mvc;
 
@@ -5,13 +6,22 @@ namespace INET410;
 
 [ApiController]
 [Route("api/leagueoflegends")]
-public class LolStatsController : ControllerBase
+public class LolStatisticsController : ControllerBase
 {
+    
 
     [HttpGet]
     public ActionResult<List<LolStatistics>> Get()
     {
         return Ok(LolRequest.GetAll());
+    }
+    
+    [HttpGet("xml")]
+    public IActionResult GetXml()
+    {
+        var lolStats = LolRequest.GetAll();
+        var xmlDocument = XmlUtils.CreateXmlDocument(lolStats);
+        return new XmlResult(xmlDocument);
     }
 
     [HttpGet("search")]
@@ -43,10 +53,10 @@ public class LolStatsController : ControllerBase
         try
         {
             result = LolRequest.GetAll();
-            LolRequest.GetByName(ref result, name);
-            LolRequest.GetByClassType(ref result, classType);
-            LolRequest.GetByRole(ref result, role);
-            LolRequest.GetByTier(ref result, tier);
+            LolRequest.FilterByName(ref result, name);
+            LolRequest.FilterByType(ref result, classType);
+            LolRequest.FilterByRole(ref result, role);
+            LolRequest.GetTierEqual(ref result, tier);
             LolRequest.GetByScore(ref result, scoreIsHigherThan, scoreIsLowerThan);
             LolRequest.GetByTrend(ref result, trendIsHigherThan, trendIsLowerThan);
             LolRequest.GetByWinPercentage(ref result, winPercentageIsHigherThan, winPercentageIsLowerThan);

@@ -14,6 +14,14 @@ public class OverwatchCharacterController : ControllerBase
         return Ok(OverwatchRequests.GetAll());
     }
 
+    [HttpGet("xml")]
+    public IActionResult GetXml()
+    {
+        var overwatchStats = OverwatchRequests.GetAll();
+        var xmlDocument = XmlUtils.CreateXmlDocument(overwatchStats);
+        return new XmlResult(xmlDocument);
+    }
+
     [HttpGet("search")]
     public ActionResult<List<Overwatch2Statistics>> Search(
         [FromQuery] string? hero,
@@ -46,8 +54,8 @@ public class OverwatchCharacterController : ControllerBase
         try
         {
             results = OverwatchRequests.GetAll();
-            OverwatchRequests.GetByHero(ref results, hero);
-            OverwatchRequests.GetBySkillTier(ref results, skillTier);
+            OverwatchRequests.FilterByHero(ref results, hero);
+            OverwatchRequests.FilterBySkillTier(ref results, skillTier);
             OverwatchRequests.GetByKdaRatio(ref results, kdaRatioHigher, kdaRatioLower);
             OverwatchRequests.GetByPickRatePercentage(ref results, pickRatePercentageHigher, pickRatePercentageLower);
             OverwatchRequests.GetByWinRatePercentage(ref results, winRatePercentageHigher, winRatePercentageLower);
@@ -57,7 +65,7 @@ public class OverwatchCharacterController : ControllerBase
             OverwatchRequests.GetByDamagePer10Min(ref results, damagePer10MinHigher, damagePer10MinLower);
             OverwatchRequests.GetByHealingPer10Min(ref results, healingPer10MinHigher, healingPer10MinLower);
             OverwatchRequests.GetByDeathsPer10Min(ref results, deathsPer10MinHigher, deathsPer10MinLower);
-            OverwatchRequests.Order(ref results, sortOrder?? SortOrder.ASC, sortBy?? "hero");
+            OverwatchRequests.Order(ref results, sortOrder ?? SortOrder.ASC, sortBy ?? "hero");
         }
         catch (Exception e)
         {
